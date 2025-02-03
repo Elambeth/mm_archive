@@ -1,0 +1,1364 @@
+{
+  "files": {
+    "mm_027_2000_nasdaq_blues_and_clues__expectations_analysis_for_the_nasdaq_100.pdf": {
+      "id": 27,
+      "year": "2000",
+      "date": "12/1",
+      "institution": "CS First Boston",
+      "title": "Nasdaq Blues and Clues: Expectations Analysis for the Nasdaq 100",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/00-12-01-nasdaq-blues-and-clues__expectations-analysis-for-the-nasdaq-100.pdf"
+    },
+    "mm_026_2000_it_s_the_ecology__stupid__how_breakdowns_in_market_diversity_can_lead_to_volatility.pdf": {
+      "id": 26,
+      "year": "2000",
+      "date": "9/11",
+      "institution": "CS First Boston",
+      "title": "It's the Ecology, Stupid: How Breakdowns in Market Diversity Can Lead to Volatility",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/00-09-11-its-the-ecology-stupid__how-breakdowns-in-market-diversity-can-lead-to-volatility.pdf"
+    },
+    "mm_013_1998_the_invisible_lead_steer__new_answers_to_old_questions_about_the_stock_market.pdf": {
+      "id": 13,
+      "year": "1998",
+      "date": "12/10",
+      "institution": "CS First Boston",
+      "title": "The Invisible Lead Steer: New Answers to Old Questions About the Stock Market",
+      "url": "https://12mv2.files.wordpress.com/2024/04/98-12-10-the-invisible-lead-steer__new-answers-to-old-questions-about-the-stock-market.pdf"
+    },
+    "mm_014_1999_rational_exuberance__is_there_method_behind_the_madness_in_internet_stock_valuations_.pdf": {
+      "id": 14,
+      "year": "1999",
+      "date": "1/26",
+      "institution": "CS First Boston",
+      "title": "Rational Exuberance? Is There Method behind the Madness in Internet Stock Valuations?",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-01-26-rational-exuberance-is-there-method-behind-the-madness-in-internet-stock-valuations.pdf"
+    },
+    "mm_058_2005_are_you_an_expert__experts_and_markets.pdf": {
+      "id": 58,
+      "year": "2005",
+      "date": "10/28",
+      "institution": "Legg Mason",
+      "title": "Are You an Expert? Experts and Markets",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-10-28-are-you-an-expert-experts-and-markets.pdf"
+    },
+    "mm_008_1998_let_s_make_a_deal__a_practical_framework_for_assessing_m_a_activity.pdf": {
+      "id": 8,
+      "year": "1998",
+      "date": "4/27",
+      "institution": "CS First Boston",
+      "title": "Let\u2019s Make a Deal: A Practical Framework for Assessing M&A Activity",
+      "url": "https://12mv2.files.wordpress.com/2024/04/98-04-27-lets-make-a-deal__a-practical-framework-for-assessing-ma-activity.pdf"
+    },
+    "mm_065_2007_explaining_the_wisdom_of_crowds__applying_the_logic_of_diversity.pdf": {
+      "id": 65,
+      "year": "2007",
+      "date": "3/20",
+      "institution": "Legg Mason",
+      "title": "Explaining the Wisdom of Crowds: Applying the Logic of Diversity",
+      "url": "https://12mv2.files.wordpress.com/2024/04/07-03-20-explaining-the-wisdom-of-crowds__applying-the-logic-of-diversity.pdf"
+    },
+    "mm_056_2005_the_ecosystem_edge.pdf": {
+      "id": 56,
+      "year": "2005",
+      "date": "7/27",
+      "institution": "Legg Mason",
+      "title": "The Ecosystem Edge",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-07-27-the-ecosystem-edge.pdf"
+    },
+    "mm_016_1999_cash_flow_com__cash_economics_in_the_new_economy.pdf": {
+      "id": 16,
+      "year": "1999",
+      "date": "2/26",
+      "institution": "CS First Boston",
+      "title": "Cash Flow.com: Cash Economics in the New Economy",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-02-26-cash-flow.com__cash-economics-in-the-new-economy.pdf"
+    },
+    "mm_095_2014_lessons_from_freestyle_chess__merging_fundamental_and_quantitative_analysis.pdf": {
+      "id": 95,
+      "year": "2014",
+      "date": "9/10",
+      "institution": "Credit Suisse",
+      "title": "Lessons from Freestyle Chess: Merging Fundamental and Quantitative Analysis",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-09-10-lessons-from-freestyle-chess__merging-fundamental-and-quantitative-analysis.pdf"
+    },
+    "mm_032_2001_thoughts_on_valuation_ii__an_epistemological_view.pdf": {
+      "id": 32,
+      "year": "2001",
+      "date": "5/31",
+      "institution": "CS First Boston",
+      "title": "Thoughts On Valuation II: An Epistemological View",
+      "url": "https://12mv2.files.wordpress.com/2024/04/01-05-31-thoughts-on-valuation-ii__an-epistemological-view.pdf"
+    },
+    "mm_012_1998_on_the_shoulders_of_giants__mental_models_for_the_new_millenium.pdf": {
+      "id": 12,
+      "year": "1998",
+      "date": "11/16",
+      "institution": "CS First Boston",
+      "title": "On The Shoulders of Giants: Mental Models for the New Millenium",
+      "url": "https://12mv2.files.wordpress.com/2024/04/98-11-16-on-the-shoulders-of-giants__mental-models-for-the-new-millenium.pdf"
+    },
+    "mm_034_2001_diffusion_confusion__the_rising_role_of_the_replacement_cycle.pdf": {
+      "id": 34,
+      "year": "2001",
+      "date": "8/1",
+      "institution": "CS First Boston",
+      "title": "Diffusion Confusion: The Rising Role of the Replacement Cycle",
+      "url": "https://12mv2.files.wordpress.com/2024/04/01-08-01-diffusion-confusion__the-rising-role-of-the-replacement-cycle.pdf"
+    },
+    "mm_053_2005_contrarian_investing__the_psychology_of_going_against_the_crowd.pdf": {
+      "id": 53,
+      "year": "2005",
+      "date": "3/8",
+      "institution": "Legg Mason",
+      "title": "Contrarian Investing: The Psychology of Going Against the Crowd",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-03-08-contrarian-investing__the-psychology-of-going-against-the-crowd.pdf"
+    },
+    "mm_005_1997_what_have_you_learned_in_the_past_2_seconds_.pdf": {
+      "id": 5,
+      "year": "1997",
+      "date": "3/12",
+      "institution": "CS First Boston",
+      "title": "What Have You Learned in the Past 2 Seconds?",
+      "url": "https://12mv2.files.wordpress.com/2024/04/97-03-12-what-have-you-learned-in-the-past-2-seconds.pdf"
+    },
+    "mm_015_1999_the__fat__tail_that_wags_the_dog__demystifying_the_stock_market_s_performance.pdf": {
+      "id": 15,
+      "year": "1999",
+      "date": "2/4",
+      "institution": "CS First Boston",
+      "title": "The (Fat) Tail that Wags the Dog: Demystifying the Stock Market\u2019s Performance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-02-04-the-fat-tail-that-wags-the-dog-demystifying-the-stock-markets-performance.pdf"
+    },
+    "mm_063_2006_interdisciplinary_perspectives_on_risk.pdf": {
+      "id": 63,
+      "year": "2006",
+      "date": "8/15",
+      "institution": "Legg Mason",
+      "title": "Interdisciplinary Perspectives on Risk",
+      "url": "https://12mv2.files.wordpress.com/2024/04/06-08-15-interdisciplinary-perspectives-on-risk.pdf"
+    },
+    "mm_030_2001_nasdaq_blues_and_clues___part_ii__expectations_analysis_for_the_nasdaq_100.pdf": {
+      "id": 30,
+      "year": "2001",
+      "date": "3/5",
+      "institution": "CS First Boston",
+      "title": "Nasdaq Blues and Clues - Part II: Expectations Analysis for the Nasdaq 100",
+      "url": "https://12mv2.files.wordpress.com/2024/04/01-03-05-nasdaq-blues-and-clues-part-ii__expectations-analysis-for-the-nasdaq-100.pdf"
+    },
+    "mm_018_1999_get_real__using_real_options_in_security_analysis.pdf": {
+      "id": 18,
+      "year": "1999",
+      "date": "6/23",
+      "institution": "CS First Boston",
+      "title": "Get Real: Using Real Options in Security Analysis",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-06-23-get-real__using-real-options-in-security-analysis.pdf"
+    },
+    "mm_010_1998_why_strategy_matters__exploring_the_link_between_strategy__competitive_advantage_and_the_stock_market.pdf": {
+      "id": 10,
+      "year": "1998",
+      "date": "9/29",
+      "institution": "CS First Boston",
+      "title": "Why Strategy Matters: Exploring the link between strategy, competitive advantage and the stock market",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/98-09-29-why-strategy-matters__exploring-the-link-between-strategy-competitive-advantage-and-the-stock-market.pdf"
+    },
+    "mm_072_2010_surge_in_the_urge_to_merge__m_a__trends_and_analysis.pdf": {
+      "id": 72,
+      "year": "2010",
+      "date": "1/12",
+      "institution": "Legg Mason",
+      "title": "Surge in the Urge to Merge: M&A: Trends and Analysis",
+      "url": "https://12mv2.files.wordpress.com/2024/04/10-01-12-surge-in-the-urge-to-merge__ma__trends-and-analysis.pdf"
+    },
+    "mm_038_2002_a_tail_of_two_worlds__fat_tails_and_investing.pdf": {
+      "id": 38,
+      "year": "2002",
+      "date": "4/9",
+      "institution": "CS First Boston",
+      "title": "A Tail of Two Worlds: Fat Tails and Investing",
+      "url": "https://12mv2.files.wordpress.com/2024/04/02-04-09-a-tail-of-two-worlds__fat-tails-and-investing.pdf"
+    },
+    "mm_090_2014_methods_to_improve_decisions__five_common_mistakes_and_how_to_address_them.pdf": {
+      "id": 90,
+      "year": "2014",
+      "date": "2/24",
+      "institution": "Credit Suisse",
+      "title": "Methods to Improve Decisions: Five Common Mistakes and How to Address Them",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-02-24-methods-to-improve-decisions__five-common-mistakes-and-how-to-address-them.pdf"
+    },
+    "mm_031_2001_fill_and_kill__succeeding_with_survivors_is_nothing_new.pdf": {
+      "id": 31,
+      "year": "2001",
+      "date": "4/5",
+      "institution": "CS First Boston",
+      "title": "Fill and Kill: Succeeding with Survivors is Nothing New",
+      "url": "https://12mv2.files.wordpress.com/2024/04/01-04-05-fill-and-kill__succeeding-with-survivors-is-nothing-new.pdf"
+    },
+    "mm_029_2001_wanna_be_ge__creating_value_through_business_category_evolution.pdf": {
+      "id": 29,
+      "year": "2001",
+      "date": "2/14",
+      "institution": "CS First Boston",
+      "title": "Wanna Be GE: Creating Value Through Business Category Evolution",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/01-02-14-wanna-be-ge__creating-value-through-business-category-evolution.pdf"
+    },
+    "mm_057_2005_aver_and_aversion__what_two_recent_experiments_mean_for_investors.pdf": {
+      "id": 57,
+      "year": "2005",
+      "date": "8/9",
+      "institution": "Legg Mason",
+      "title": "Aver and Aversion: What Two Recent Experiments Mean for Investors",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-08-09-aver-and-aversion__what-two-recent-experiments-mean-for-investors.pdf"
+    },
+    "mm_021_1999_the_triumph_of_bits__mental_models_for_successful_investment.pdf": {
+      "id": 21,
+      "year": "1999",
+      "date": "12/10",
+      "institution": "CS First Boston",
+      "title": "The Triumph of Bits: Mental Models for Successful Investment",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-12-10-the-triumph-of-bits__mental-models-for-successful-investment.pdf"
+    },
+    "mm_022_1999_absolute_power__the_internet_s_hidden_order.pdf": {
+      "id": 22,
+      "year": "1999",
+      "date": "12/21",
+      "institution": "CS First Boston",
+      "title": "Absolute Power: The Internet\u2019s Hidden Order",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-12-21-absolute-power__the-internets-hidden-order.pdf"
+    },
+    "mm_004_1997_competitive_advantage_period__cap____the_neglected_value_driver.pdf": {
+      "id": 4,
+      "year": "1997",
+      "date": "1/14",
+      "institution": "CS First Boston",
+      "title": "Competitive Advantage Period \u201cCAP\u201d - The Neglected Value Driver",
+      "url": "https://12mv2.files.wordpress.com/2024/04/97-01-14-competitive-advantage-period-cap-the-neglected-value-drive-1.pdf"
+    },
+    "mm_024_2000_network_to_net_worth__exploring_network_dynamics.pdf": {
+      "id": 24,
+      "year": "2000",
+      "date": "5/11",
+      "institution": "CS First Boston",
+      "title": "Network to Net Worth: Exploring Network Dynamics",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/00-05-11-network-to-net-worth__exploring-network-dynamics.pdf"
+    },
+    "mm_061_2006_common_errors_in_dcf_models__do_you_use_economically_sound___transparent_models_.pdf": {
+      "id": 61,
+      "year": "2006",
+      "date": "3/16",
+      "institution": "Legg Mason",
+      "title": "Common Errors in DCF Models: Do You Use Economically Sound & Transparent Models?",
+      "url": "https://12mv2.files.wordpress.com/2024/04/06-03-16-common-errors-in-dcf-models__do-you-use-economically-sound-transparent-models.pdf"
+    },
+    "mm_060_2006_size_matters__the_kelly_criterion_and_the_importance_of_money_management.pdf": {
+      "id": 60,
+      "year": "2006",
+      "date": "2/1",
+      "institution": "Legg Mason",
+      "title": "Size Matters: The Kelly Criterion and the Importance of Money Management",
+      "url": "https://12mv2.files.wordpress.com/2024/04/06-02-01-size-matters__the-kelly-criterion-and-the-importance-of-money-management.pdf"
+    },
+    "mm_052_2005_m_m_on_valuation.pdf": {
+      "id": 52,
+      "year": "2005",
+      "date": "1/14",
+      "institution": "Legg Mason",
+      "title": "M&M on Valuation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-01-14-mm-on-valuation.pdf"
+    },
+    "mm_054_2005_capital_ideas_revisited__the_prime_directive__sharks__and_the_wisdom_of_crowds.pdf": {
+      "id": 54,
+      "year": "2005",
+      "date": "3/30",
+      "institution": "Legg Mason",
+      "title": "Capital Ideas Revisited: The Prime Directive, Sharks, and The Wisdom of Crowds",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-03-30-capital-ideas-revisited__the-prime-directive-sharks-and-the-wisdom-of-crowds.pdf"
+    },
+    "mm_003_1995_plus_\u00e7a_change__plus_c_est_pareil__the_more_things_change__the_more_they_stay_the_same.pdf": {
+      "id": 3,
+      "year": "1995",
+      "date": "12/13",
+      "institution": "CS First Boston",
+      "title": "Plus \u00c7a Change, Plus C\u2019est Pareil: The More Things Change, the More They Stay the Same",
+      "url": "https://12mv2.files.wordpress.com/2024/04/95-12-13-plus-ca-change-plus-cest-pareil-the-more-things-change-the-more-they-stay-the-same.pdf"
+    },
+    "mm_042_2003_integrating_the_outliers__two_lessons_from_the_st__petersburg_paradox.pdf": {
+      "id": 42,
+      "year": "2003",
+      "date": "1/28",
+      "institution": "CS First Boston",
+      "title": "Integrating the Outliers: Two Lessons from the St. Petersburg Paradox",
+      "url": "https://12mv2.files.wordpress.com/2024/04/03-01-28-integrating-the-outliers__two-lessons-from-the-st.-petersburg-paradox.pdf"
+    },
+    "mm_019_1999_the_retailer_s_dilemma__revenge_of_the_nerds__how_the_new_value_network_challenges_incumbents.pdf": {
+      "id": 19,
+      "year": "1999",
+      "date": "10/25",
+      "institution": "CS First Boston",
+      "title": "The Retailer's Dilemma: Revenge of the Nerds: How the New Value Network Challenges Incumbents",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/99-10-25-the-retailers-dilemma__revenge-of-the-nerds__how-the-new-value-network-challenges-incumbents.pdf"
+    },
+    "mm_073_2010_the_colonel_blotto_game__transitivity_and_how_to_win_when_you_re_an_underdog.pdf": {
+      "id": 73,
+      "year": "2010",
+      "date": "5/5",
+      "institution": "Legg Mason",
+      "title": "The Colonel Blotto Game: Transitivity and How to Win When You\u2019re an Underdog",
+      "url": "https://12mv2.files.wordpress.com/2024/04/10-05-05-the-colonel-blotto-game__transitivity-and-how-to-win-when-youre-an-underdog.pdf"
+    },
+    "mm_017_1999_value_explosion__exploring_barriers_to_entry_for_internet_companies.pdf": {
+      "id": 17,
+      "year": "1999",
+      "date": "3/11",
+      "institution": "CS First Boston",
+      "title": "Value Explosion: Exploring Barriers to Entry for Internet Companies",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/99-03-11-value-explosion__exploring-barriers-to-entry-for-internet-companies.pdf"
+    },
+    "mm_006_1997_thoughts_on_valuation.pdf": {
+      "id": 6,
+      "year": "1997",
+      "date": "10/21",
+      "institution": "CS First Boston",
+      "title": "Thoughts on Valuation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/97-10-21-thoughts-on-valuation.pdf"
+    },
+    "mm_070_2008_roic_patterns_and_shareholder_returns__sorting_fundamentals_and_expectations.pdf": {
+      "id": 70,
+      "year": "2008",
+      "date": "1/18",
+      "institution": "Legg Mason",
+      "title": "ROIC Patterns and Shareholder Returns: Sorting Fundamentals and Expectations",
+      "url": "https://12mv2.files.wordpress.com/2024/04/08-01-18-roic-patterns-and-shareholder-returns__sorting-fundamentals-and-expectations.pdf"
+    },
+    "mm_033_2001_where_s_the_bar__introducing_market_expected_return_on_investment__meroi_.pdf": {
+      "id": 33,
+      "year": "2001",
+      "date": "6/12",
+      "institution": "CS First Boston",
+      "title": "Where\u2019s the Bar? Introducing Market-Expected Return on Investment (MEROI)",
+      "url": "https://12mv2.files.wordpress.com/2024/04/01-06-12-wheres-the-bar-introducing-market-expected-return-on-investment-meroi.pdf"
+    },
+    "mm_037_2002_a_process_for_outperformance__thoughts_on_organizing_for_investing_success.pdf": {
+      "id": 37,
+      "year": "2002",
+      "date": "3/26",
+      "institution": "CS First Boston",
+      "title": "A Process for Outperformance: Thoughts on Organizing for Investing Success",
+      "url": "https://12mv2.files.wordpress.com/2024/04/02-03-26-a-process-for-outperformance__thoughts-on-organizing-for-investing-success.pdf"
+    },
+    "mm_068_2007_death__taxes__and_reversion_to_the_mean__roic_patterns__luck__persistence__and_what_to_do_about_it.pdf": {
+      "id": 68,
+      "year": "2007",
+      "date": "12/14",
+      "institution": "Legg Mason",
+      "title": "Death, Taxes, and Reversion to the Mean: ROIC Patterns: Luck, Persistence, and What to Do About It",
+      "url": "https://12mv2.files.wordpress.com/2024/04/07-12-14-death-taxes-and-reversion-to-the-mean__roic-patterns__luck-persistence-and-what-to-do-about-it.pdf"
+    },
+    "mm_092_2014_disbursing_cash_to_shareholders__faq_s_about_buybacks_and_dividends.pdf": {
+      "id": 92,
+      "year": "2014",
+      "date": "5/6",
+      "institution": "Credit Suisse",
+      "title": "Disbursing Cash to Shareholders: FAQ's about Buybacks and Dividends",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-05-06-disbursing-cash-to-shareholders__faqs-about-buybacks-and-dividends.pdf"
+    },
+    "mm_055_2005_capital_ideas_revisited___part_2__thoughts_on_beating_a_mostly_efficient_stock_market.pdf": {
+      "id": 55,
+      "year": "2005",
+      "date": "5/20",
+      "institution": "Legg Mason",
+      "title": "Capital Ideas Revisited - Part 2: Thoughts on Beating a Mostly-Efficient Stock Market",
+      "url": "https://12mv2.files.wordpress.com/2024/04/05-05-20-capital-ideas-revisited-part-2__thoughts-on-beating-a-mostly-efficient-stock-market.pdf"
+    },
+    "mm_064_2007_importance_of_diverse_thinking__why_the_santa_fe_institute_can_make_you_a_better_investor.pdf": {
+      "id": 64,
+      "year": "2007",
+      "date": "1/16",
+      "institution": "Legg Mason",
+      "title": "Importance of Diverse Thinking: Why the Santa Fe Institute Can Make You a Better Investor",
+      "url": "https://12mv2.files.wordpress.com/2024/04/07-01-16-importance-of-diverse-thinking__why-the-santa-fe-institute-can-make-you-a-better-investor.pdf"
+    },
+    "mm_046_2004_i_ve_fallen_and_i_can_t_get_up__mean_reversion_and_turnarounds.pdf": {
+      "id": 46,
+      "year": "2004",
+      "date": "2/10",
+      "institution": "CS First Boston",
+      "title": "I\u2019ve Fallen and I Can\u2019t Get Up: Mean Reversion and Turnarounds",
+      "url": "https://12mv2.files.wordpress.com/2024/04/04-02-10-ive-fallen-and-i-cant-get-up__mean-reversion-and-turnarounds.pdf"
+    },
+    "mm_059_2006_clear_thinking_about_share_repurchase__capital_allocation__dividends___share_repurchase.pdf": {
+      "id": 59,
+      "year": "2006",
+      "date": "1/10",
+      "institution": "Legg Mason",
+      "title": "Clear Thinking about Share Repurchase: Capital Allocation, Dividends & Share Repurchase",
+      "url": "https://12mv2.files.wordpress.com/2024/04/06-01-10-clear-thinking-about-share-repurchase__capital-allocation-dividends-share-repurchase.pdf"
+    },
+    "mm_011_1998_a_piece_of_the_action__employee_stock_options_in_the_new_economy.pdf": {
+      "id": 11,
+      "year": "1998",
+      "date": "11/2",
+      "institution": "CS First Boston",
+      "title": "A Piece of the Action: Employee Stock Options in the New Economy",
+      "url": "https://12mv2.files.wordpress.com/2024/04/98-11-02-a-piece-of-the-action__employee-stock-options-in-the-new-economy.pdf"
+    },
+    "mm_062_2006_long_term_investing_in_a_short_term_world__how_psychology_and_incentives_shape_the_investment_industry.pdf": {
+      "id": 62,
+      "year": "2006",
+      "date": "5/18",
+      "institution": "Legg Mason",
+      "title": "Long-Term Investing in a Short-Term World: How Psychology and Incentives Shape the Investment Industry",
+      "url": "https://12mv2.files.wordpress.com/2024/04/06-05-18-long-term-investing-in-a-short-term-world__how-psychology-and-incentives-shape-the-investment-industry.pdf"
+    },
+    "mm_020_1999_atoms__bits__and_cash__the_abcs_of_investing_in_the_new_economy.pdf": {
+      "id": 20,
+      "year": "1999",
+      "date": "11/22",
+      "institution": "CS First Boston",
+      "title": "Atoms, Bits, and Cash: The ABCs of Investing in the New Economy",
+      "url": "https://12mv2.files.wordpress.com/2024/04/99-11-22-atoms-bits-and-cash__the-abcs-of-investing-in-the-new-economy.pdf"
+    },
+    "mm_028_2000_innovation_and_markets__how_innovation_affects_the_investing_process.pdf": {
+      "id": 28,
+      "year": "2000",
+      "date": "12/12",
+      "institution": "CS First Boston",
+      "title": "Innovation and Markets: How Innovation Affects the Investing Process",
+      "url": "https://12mv2.files.wordpress.com/2024/04/00-12-12-innovation-and-markets__how-innovation-affects-the-investing-process.pdf"
+    },
+    "mm_067_2007_was_harry_potter_inevitable__cumulative_advantage__counterfactuals__and_the_halo_effect.pdf": {
+      "id": 67,
+      "year": "2007",
+      "date": "9/7",
+      "institution": "Legg Mason",
+      "title": "Was Harry Potter Inevitable? Cumulative Advantage, Counterfactuals, and the Halo Effect",
+      "url": "https://12mv2.files.wordpress.com/2024/04/07-09-07-was-harry-potter-inevitable__cumulative-advantage-counterfactuals-and-the-halo-effect.pdf"
+    },
+    "mm_039_2002_great__growth__expectations__on_the_limits_of_corporate_growth.pdf": {
+      "id": 39,
+      "year": "2002",
+      "date": "4/23",
+      "institution": "CS First Boston",
+      "title": "Great (Growth) Expectations: On the Limits of Corporate Growth",
+      "url": "https://12mv2.files.wordpress.com/2024/04/02-04-23-great-growth-expectations__on-the-limits-of-corporate-growth.pdf"
+    },
+    "mm_074_2010_it_s_all_about_managing_for_value.pdf": {
+      "id": 74,
+      "year": "2010",
+      "date": "6/11",
+      "institution": "Legg Mason",
+      "title": "It's All about Managing for Value",
+      "url": "https://12mv2.files.wordpress.com/2024/04/10-06-11-its-all-about-managing-for-value.pdf"
+    },
+    "mm_078_2012_seeking_portfolio_manager_skill__active_share_and_tracking_error_as_a_means_to_anticipate_alpha.pdf": {
+      "id": 78,
+      "year": "2012",
+      "date": "2/24",
+      "institution": "Legg Mason",
+      "title": "Seeking Portfolio Manager Skill: Active Share and Tracking Error as a Means to Anticipate Alpha",
+      "url": "https://12mv2.files.wordpress.com/2024/04/12-02-24-seeking-portfolio-manager-skill__active-share-and-tracking-error-as-a-means-to-anticipate-alpha.pdf"
+    },
+    "mm_093_2014_calculating_return_on_invested_capital__how_to_determine_roic_and_address_common_issues.pdf": {
+      "id": 93,
+      "year": "2014",
+      "date": "6/4",
+      "institution": "Credit Suisse",
+      "title": "Calculating Return on Invested Capital: How to Determine ROIC and Address Common Issues",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-06-04-calculating-return-on-invested-capital__how-to-determine-roic-and-address-common-issues.pdf"
+    },
+    "mm_069_2007_fat_tails_and_nonlinearity__diversity_breakdowns_and_invisible_vulnerability.pdf": {
+      "id": 69,
+      "year": "2007",
+      "date": "12/20",
+      "institution": "Legg Mason",
+      "title": "Fat Tails and Nonlinearity: Diversity Breakdowns and Invisible Vulnerability",
+      "url": "https://12mv2.files.wordpress.com/2024/04/07-12-20-fat-tails-and-nonlinearity__diversity-breakdowns-and-invisible-vulnerability.pdf"
+    },
+    "mm_043_2003_all_i_really_need_to_know_i_learned_at_a_tupperware_party__what_tupperware_parties_teach_you_about_investing_and_life.pdf": {
+      "id": 43,
+      "year": "2003",
+      "date": "2/25",
+      "institution": "CS First Boston",
+      "title": "All I Really Need to Know I Learned at a Tupperware Party: What Tupperware Parties Teach You about Investing and Life",
+      "url": "https://12mv2.files.wordpress.com/2024/04/03-02-25-all-i-really-need-to-know-i-learned-at-a-tupperware-party__what-tupperware-parties-teach-you-about-investing-and-life.pdf"
+    },
+    "mm_035_2001_ruminations_on_risk__beta_versus_margin_of_safety.pdf": {
+      "id": 35,
+      "year": "2001",
+      "date": "8/3",
+      "institution": "CS First Boston",
+      "title": "Ruminations on Risk: Beta Versus Margin of Safety",
+      "url": "https://12mv2.files.wordpress.com/2024/04/01-08-03-ruminations-on-risk__beta-versus-margin-of-safety.pdf"
+    },
+    "mm_045_2003_mine_your_mind__neuroscience_and_investing.pdf": {
+      "id": 45,
+      "year": "2003",
+      "date": "11/4",
+      "institution": "CS First Boston",
+      "title": "Mine Your Mind: Neuroscience and Investing",
+      "url": "https://12mv2.files.wordpress.com/2024/04/03-11-04-mine-your-mind__neuroscience-and-investing.pdf"
+    },
+    "mm_087_2013_economic_returns__reversion_to_the_mean__and_total_shareholder_returns__anticipating_change_is_hard_but_profitable.pdf": {
+      "id": 87,
+      "year": "2013",
+      "date": "12/6",
+      "institution": "Credit Suisse",
+      "title": "Economic Returns, Reversion to the Mean, and Total Shareholder Returns: Anticipating Change Is Hard but Profitable",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-12-06-economic-returns-reversion-to-the-mean-and-total-shareholder-returns__anticipating-change-is-hard-but-profitable.pdf"
+    },
+    "mm_125_2017_coming_clean_with_energy_cost_curves__an_interview_with_mit_s_jessika_trancik.pdf": {
+      "id": 125,
+      "year": "2017",
+      "date": "1/19",
+      "institution": "Credit Suisse",
+      "title": "Coming Clean with Energy Cost Curves: An Interview with MIT\u2019s Jessika Trancik",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-01-19-coming-clean-with-energy-cost-curves__an-interview-with-mits-jessika-trancik.pdf"
+    },
+    "mm_044_2003_the_pyramid_of_numbers__firm_size__growth_rates__and_valuation.pdf": {
+      "id": 44,
+      "year": "2003",
+      "date": "9/23",
+      "institution": "CS First Boston",
+      "title": "The Pyramid of Numbers: Firm Size, Growth Rates, and Valuation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/03-09-23-the-pyramid-of-numbers__firm-size-growth-rates-and-valuation.pdf"
+    },
+    "mm_077_2011_the_coffee_can_approach__why_doing_less_can_leave_you_with_more.pdf": {
+      "id": 77,
+      "year": "2011",
+      "date": "3/25",
+      "institution": "Legg Mason",
+      "title": "The Coffee Can Approach: Why Doing Less Can Leave You with More",
+      "url": "https://12mv2.files.wordpress.com/2024/04/11-03-25-the-coffee-can-approach__why-doing-less-can-leave-you-with-more.pdf"
+    },
+    "mm_048_2004_the_life_of_game__sports__stats__and_the_lessons_they_teach_us.pdf": {
+      "id": 48,
+      "year": "2004",
+      "date": "8/5",
+      "institution": "Legg Mason",
+      "title": "The Life of Game: Sports, Stats, and the Lessons they Teach Us",
+      "url": "https://12mv2.files.wordpress.com/2024/04/04-08-05-the-life-of-game__sports-stats-and-the-lessons-they-teach-us.pdf"
+    },
+    "mm_007_1997_shift_happens__on_a_new_paradigm_of_the_markets_as_a_complex_adaptive_system.pdf": {
+      "id": 7,
+      "year": "1997",
+      "date": "10/21",
+      "institution": "CS First Boston",
+      "title": "Shift Happens: On a New Paradigm of the Markets as a Complex Adaptive System",
+      "url": "https://12mv2.files.wordpress.com/2024/04/97-10-21-shift-happens__on-a-new-paradigm-of-the-markets-as-a-complex-adaptive-system.pdf"
+    },
+    "mm_096_2014_a_long_look_at_short_termism__questioning_the_premise.pdf": {
+      "id": 96,
+      "year": "2014",
+      "date": "11/18",
+      "institution": "Credit Suisse",
+      "title": "A Long Look at Short-Termism: Questioning the Premise",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-11-18-a-long-look-at-short-termism__questioning-the-premise.pdf"
+    },
+    "mm_076_2011_blaming_the_rat__incentives__motivation__and_how_they_interact.pdf": {
+      "id": 76,
+      "year": "2011",
+      "date": "1/12",
+      "institution": "Legg Mason",
+      "title": "Blaming the Rat: Incentives, Motivation, and How They Interact",
+      "url": "https://12mv2.files.wordpress.com/2024/04/11-01-12-blaming-the-rat__incentives-motivation-and-how-they-interact.pdf"
+    },
+    "mm_082_2013_alpha_and_the_paradox_of_skill__results_reflect_your_skill_and_the_game_you_are_playing.pdf": {
+      "id": 82,
+      "year": "2013",
+      "date": "7/15",
+      "institution": "Credit Suisse",
+      "title": "Alpha and the Paradox of Skill: Results Reflect Your Skill and the Game You Are Playing",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-07-15-alpha-and-the-paradox-of-skill__results-reflect-your-skill-and-the-game-you-are-playing.pdf"
+    },
+    "mm_066_2007_turtles_in_omaha__the_mindset_of_great_investors.pdf": {
+      "id": 66,
+      "year": "2007",
+      "date": "5/23",
+      "institution": "Legg Mason",
+      "title": "Turtles in Omaha: The Mindset of Great Investors",
+      "url": "https://12mv2.files.wordpress.com/2024/04/07-05-23-turtles-in-omaha__the-mindset-of-great-investors.pdf"
+    },
+    "mm_089_2014_what_does_a_price_earnings_multiple_mean__an_analytical_bridge_between_p_es_and_solid_economics.pdf": {
+      "id": 89,
+      "year": "2014",
+      "date": "1/29",
+      "institution": "Credit Suisse",
+      "title": "What Does a Price-Earnings Multiple Mean? An Analytical Bridge between P/Es and Solid Economics",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-01-29-what-does-a-price-earnings-multiple-mean__an-analytical-bridge-between-p-es-and-solid-economics.pdf"
+    },
+    "mm_110_2016_corporate_governance_and_capital_allocation__the_governing_objective__corporate_governance_and_the_two_camps.pdf": {
+      "id": 110,
+      "year": "2016",
+      "date": "1/1",
+      "institution": "Credit Suisse",
+      "title": "Corporate Governance and Capital Allocation: The Governing Objective, Corporate Governance and the Two Camps",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-01-01-corporate-governance-and-capital-allocation__the-governing-objective-corporate-governance-and-the-two-camps.pdf"
+    },
+    "mm_099_2015_animating_mr__market__adopting_a_proper_psychological_attitude.pdf": {
+      "id": 99,
+      "year": "2015",
+      "date": "2/10",
+      "institution": "Credit Suisse",
+      "title": "Animating Mr. Market: Adopting a Proper Psychological Attitude",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-02-10-animating-mr.-market__adopting-a-proper-psychological-attitude.pdf"
+    },
+    "mm_091_2014_why_corporate_longevity_matters__what_index_turnover_tells_us_about_corporate_results.pdf": {
+      "id": 91,
+      "year": "2014",
+      "date": "4/16",
+      "institution": "Credit Suisse",
+      "title": "Why Corporate Longevity Matters: What Index Turnover Tells Us about Corporate Results",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-04-16-why-corporate-longevity-matters__what-index-turnover-tells-us-about-corporate-results.pdf"
+    },
+    "mm_051_2004_the_economics_of_customer_businesses.pdf": {
+      "id": 51,
+      "year": "2004",
+      "date": "12/9",
+      "institution": "Legg Mason",
+      "title": "The Economics of Customer Businesses",
+      "url": "https://12mv2.files.wordpress.com/2024/04/04-12-09-the-economics-of-customer-businesses.pdf"
+    },
+    "mm_088_2014_building_an_effective_team__how_to_manage_a_team_to_make_good_decisions.pdf": {
+      "id": 88,
+      "year": "2014",
+      "date": "1/8",
+      "institution": "Credit Suisse",
+      "title": "Building an Effective Team: How to Manage a Team to Make Good Decisions",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-01-08-building-an-effective-team__how-to-manage-a-team-to-make-good-decisions.pdf"
+    },
+    "mm_081_2013_cultivating_your_judgment_skills__a_framework_for_improving_the_quality_of_decisions.pdf": {
+      "id": 81,
+      "year": "2013",
+      "date": "5/7",
+      "institution": "Credit Suisse",
+      "title": "Cultivating Your Judgment Skills: A Framework for Improving the Quality of Decisions",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-05-07-cultivating-your-judgment-skills__a-framework-for-improving-the-quality-of-decisions.pdf"
+    },
+    "mm_084_2013_how_to_model_reversion_to_the_mean__determining_how_fast__and_to_what_mean__results_revert.pdf": {
+      "id": 84,
+      "year": "2013",
+      "date": "9/17",
+      "institution": "Credit Suisse",
+      "title": "How to Model Reversion to the Mean: Determining How Fast, and to What Mean, Results Revert",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-09-17-how-to-model-reversion-to-the-mean__determing-how-fast-and-to-what-mean-results-revert.pdf"
+    },
+    "mm_119_2016_thirty_years__reflections_on_the_ten_attributes_of_great_investors.pdf": {
+      "id": 119,
+      "year": "2016",
+      "date": "8/4",
+      "institution": "Credit Suisse",
+      "title": "Thirty Years: Reflections on the Ten Attributes of Great Investors",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-08-04-thirty-years__reflections-on-the-ten-attributes-of-great-investors.pdf"
+    },
+    "mm_071_2008_long_term_investing__how_i_learned_to_stop_worrying_and_ignore_volatility.pdf": {
+      "id": 71,
+      "year": "2008",
+      "date": "12/15",
+      "institution": "Legg Mason",
+      "title": "Long-Term Investing: How I Learned to Stop Worrying and Ignore Volatility",
+      "url": "https://12mv2.files.wordpress.com/2024/04/08-12-15-long-term-investing__how-i-learned-to-stop-worrying-and-ignore-volatility.pdf"
+    },
+    "mm_128_2017_incredible_shrinking_universe_of_stocks__causes___consequences_of_fewer_u_s__equities.pdf": {
+      "id": 128,
+      "year": "2017",
+      "date": "3/22",
+      "institution": "Credit Suisse",
+      "title": "Incredible Shrinking Universe of Stocks: Causes & Consequences of Fewer U.S. Equities",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-03-22-incredible-shrinking-universe-of-stocks__causes-consequences-of-fewer-u.s.-equities.pdf"
+    },
+    "mm_049_2004_employee_stock_options__theory_and_practice.pdf": {
+      "id": 49,
+      "year": "2004",
+      "date": "9/7",
+      "institution": "Legg Mason",
+      "title": "Employee Stock Options: Theory and Practice",
+      "url": "https://12mv2.files.wordpress.com/2024/04/04-09-07-employee-stock-options__theory-and-practice.pdf"
+    },
+    "mm_129_2017_assembling_a_dream_team__how_gender_diversity_can_strengthen_your_team.pdf": {
+      "id": 129,
+      "year": "2017",
+      "date": "5/11",
+      "institution": "Credit Suisse",
+      "title": "Assembling a Dream Team: How Gender Diversity Can Strengthen Your Team",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-05-11-assembling-a-dream-team__how-gender-diversity-can-strengthen-your-team.pdf"
+    },
+    "mm_111_2016_celebrating_the_summit__making_an_informed_decision_after_a_large_price_gain.pdf": {
+      "id": 111,
+      "year": "2016",
+      "date": "1/11",
+      "institution": "Credit Suisse",
+      "title": "Celebrating the Summit: Making an Informed Decision After a Large Price Gain",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-01-11-celebrating-the-summit__making-an-informed-decision-after-a-large-price-gain.pdf"
+    },
+    "mm_108_2015_what_s_going_on_in_your_brain__common_investor_biases_and_where_they_come_from.pdf": {
+      "id": 108,
+      "year": "2015",
+      "date": "10/20",
+      "institution": "Credit Suisse",
+      "title": "What\u2019s Going On in Your Brain? Common Investor Biases and Where They Come From",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-10-20-whats-going-on-in-your-brain__common-investor-biases-and-where-they-come-from.pdf"
+    },
+    "mm_009_1998_to_buy_or_not_to_buy__issues_and_considerations_surrounding_share_repurchase.pdf": {
+      "id": 9,
+      "year": "1998",
+      "date": "8/7",
+      "institution": "CS First Boston",
+      "title": "To Buy or Not to Buy: Issues and Considerations Surrounding Share Repurchase",
+      "url": "https://12mv2.com/wp-content/uploads/2024/06/98-08-07-to-buy-or-not-to-buy__issues-and-considerations-surrounding-share-repurchase.pdf"
+    },
+    "mm_105_2015_understanding_skill__a_paradox_plus_qualitative_and_quantitative_approaches.pdf": {
+      "id": 105,
+      "year": "2015",
+      "date": "7/22",
+      "institution": "Credit Suisse",
+      "title": "Understanding Skill: A Paradox Plus Qualitative and Quantitative Approaches",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-07-22-understanding-skill__a-paradox-plus-qualitative-and-quantitative-approaches.pdf"
+    },
+    "mm_107_2015_sharpening_your_forecasting_skills__foresight_is_a_measurable_skill_that_you_can_cultivate.pdf": {
+      "id": 107,
+      "year": "2015",
+      "date": "9/28",
+      "institution": "Credit Suisse",
+      "title": "Sharpening Your Forecasting Skills: Foresight Is a Measurable Skill That You Can Cultivate",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-09-28-sharpening-your-forecasting-skills__foresight-is-a-measurable-skill-that-you-can-cultivate.pdf"
+    },
+    "mm_086_2013_outcome_bias_and_the_interpreter__how_our_minds_confuse_skill_and_luck.pdf": {
+      "id": 86,
+      "year": "2013",
+      "date": "10/15",
+      "institution": "Credit Suisse",
+      "title": "Outcome Bias and the Interpreter: How Our Minds Confuse Skill and Luck",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-10-15-outcome-bias-and-the-interpreter__how-our-minds-confuse-skill-and-luck.pdf"
+    },
+    "mm_117_2016_form_follows_function__organizational_structure_and_investment_results.pdf": {
+      "id": 117,
+      "year": "2016",
+      "date": "7/8",
+      "institution": "Credit Suisse",
+      "title": "Form Follows Function: Organizational Structure and Investment Results",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-07-08-form-follows-function__organizational-structure-and-investment-results.pdf"
+    },
+    "mm_050_2004_exploring_network_economics.pdf": {
+      "id": 50,
+      "year": "2004",
+      "date": "10/11",
+      "institution": "Legg Mason",
+      "title": "Exploring Network Economics",
+      "url": "https://12mv2.files.wordpress.com/2024/04/04-10-11-exploring-network-economics.pdf"
+    },
+    "mm_040_2002_the_janitor_s_dream__why_listening_to_individuals_can_be_hazardous_to_your_wealth.pdf": {
+      "id": 40,
+      "year": "2002",
+      "date": "6/18",
+      "institution": "CS First Boston",
+      "title": "The Janitor\u2019s Dream: Why Listening to Individuals Can be Hazardous to Your Wealth",
+      "url": "https://12mv2.files.wordpress.com/2024/04/02-06-18-the-janitors-dream__why-listening-to-individuals-can-be-hazardous-to-your-wealth.pdf"
+    },
+    "mm_132_2018_procyclicality_and_its_extremes.pdf": {
+      "id": 132,
+      "year": "2018",
+      "date": "6/26",
+      "institution": "Blue Mountain",
+      "title": "Procyclicality and Its Extremes",
+      "url": "https://12mv2.files.wordpress.com/2024/04/18-06-26-procyclicality-and-its-extremes.pdf"
+    },
+    "mm_124_2017_looking_for_easy_games__how_passive_investing_shapes_active_management.pdf": {
+      "id": 124,
+      "year": "2017",
+      "date": "1/4",
+      "institution": "Credit Suisse",
+      "title": "Looking for Easy Games: How Passive Investing Shapes Active Management",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-01-04-looking-for-easy-games__how-passive-investing-shapes-active-management.pdf"
+    },
+    "mm_080_2012_the_importance_of_expectations__the_question_that_bears_repeating__what_s_priced_in_.pdf": {
+      "id": 80,
+      "year": "2012",
+      "date": "8/21",
+      "institution": "Legg Mason",
+      "title": "The Importance of Expectations: The Question that Bears Repeating: What\u2019s Priced in?",
+      "url": "https://12mv2.files.wordpress.com/2024/04/12-08-21-the-importance-of-expectations__the-question-that-bears-repeating__whats-priced-in.pdf"
+    },
+    "mm_131_2017_how_well_do_you_compare_.pdf": {
+      "id": 131,
+      "year": "2017",
+      "date": "12/20",
+      "institution": "Blue Mountain",
+      "title": "How Well Do You Compare?",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-12-20-how-well-do-you-compare.pdf"
+    },
+    "mm_130_2017_winning_the_easy_game__skill_and_the_ability_to_extract_value.pdf": {
+      "id": 130,
+      "year": "2017",
+      "date": "6/11",
+      "institution": "Credit Suisse",
+      "title": "Winning the Easy Game: Skill and the Ability to Extract Value",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-06-11-winning-the-easy-game__skill-and-the-ability-to-extract-value.pdf"
+    },
+    "mm_104_2015_triple_crown_teachings__three_takeaways_from_the_quest_for_the_elusive_feat.pdf": {
+      "id": 104,
+      "year": "2015",
+      "date": "6/4",
+      "institution": "Credit Suisse",
+      "title": "Triple Crown Teachings: Three Takeaways from the Quest for the Elusive Feat",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-06-04-triple-crown-teachings__three-takeaways-from-the-quest-for-the-elusive-feat.pdf"
+    },
+    "mm_106_2015_total_addressable_market__methods_to_estimate_a_company_s_potential_sales.pdf": {
+      "id": 106,
+      "year": "2015",
+      "date": "9/1",
+      "institution": "Credit Suisse",
+      "title": "Total Addressable Market: Methods to Estimate a Company\u2019s Potential Sales",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-09-01-total-addressable-market__methods-to-estimate-a-companys-potential-sales.pdf"
+    },
+    "mm_047_2004_decision_making_for_investors__theory__practice__and_pitfalls.pdf": {
+      "id": 47,
+      "year": "2004",
+      "date": "5/24",
+      "institution": "Legg Mason",
+      "title": "Decision-Making for Investors: Theory, Practice, and Pitfalls",
+      "url": "https://12mv2.files.wordpress.com/2024/04/04-05-24-decision-making-for-investors__theory-practice-and-pitfalls.pdf"
+    },
+    "mm_097_2015_capital_allocation_outside_the_us__evidence__analytical_methods____assessment_guidance.pdf": {
+      "id": 97,
+      "year": "2015",
+      "date": "1/6",
+      "institution": "Credit Suisse",
+      "title": "Capital Allocation Outside the US: Evidence, Analytical Methods, & Assessment Guidance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-01-06-capital-allocation-outside-the-us__evidence-analytical-methods-assessment-guidance.pdf"
+    },
+    "mm_079_2012_share_repurchase_from_all_angles__assessing_buybacks__no_matter_where_you_sit.pdf": {
+      "id": 79,
+      "year": "2012",
+      "date": "6/11",
+      "institution": "Legg Mason",
+      "title": "Share Repurchase from All Angles: Assessing Buybacks, No Matter Where You Sit",
+      "url": "https://12mv2.files.wordpress.com/2024/04/12-06-11-share-repurchase-from-all-angles__assessing-buybacks-no-matter-where-you-sit.pdf"
+    },
+    "mm_112_2016_the_base_rate_book___sales_growth__integrating_the_past_to_better_anticipate_the_future_v2.pdf": {
+      "id": 112,
+      "year": "2016",
+      "date": "2/23",
+      "institution": "Credit Suisse",
+      "title": "The Base Rate Book - Sales Growth: Integrating the Past to Better Anticipate the Future_v2",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-02-23-the-base-rate-book-sales-growth__integrating-the-past-to-better-anticipate-the-future_v2.pdf"
+    },
+    "mm_127_2017_to_buy_or_not_to_buy__a_checklist_for_assessing_mergers___acquisitions.pdf": {
+      "id": 127,
+      "year": "2017",
+      "date": "2/27",
+      "institution": "Credit Suisse",
+      "title": "To Buy or Not To Buy: A Checklist for Assessing Mergers & Acquisitions",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-02-27-to-buy-or-not-to-buy__a-checklist-for-assessing-mergers-acquisitions.pdf"
+    },
+    "mm_075_2010_untangling_skill_and_luck__how_to_think_about_outcomes___past__present__and_future.pdf": {
+      "id": 75,
+      "year": "2010",
+      "date": "7/15",
+      "institution": "Legg Mason",
+      "title": "Untangling Skill and Luck: How to Think About Outcomes - Past, Present, and Future",
+      "url": "https://12mv2.files.wordpress.com/2024/04/10-07-15-untangling-skill-and-luck__how-to-think-about-outcomes-past-present-and-future.pdf"
+    },
+    "mm_148_2021_categorizing_for_clarity__cash_flow_statement_adjsutments_to_improve_insight.pdf": {
+      "id": 148,
+      "year": "2021",
+      "date": "10/6",
+      "institution": "Counterpoint",
+      "title": "Categorizing for Clarity: Cash Flow Statement Adjsutments to Improve Insight",
+      "url": "https://12mv2.files.wordpress.com/2024/04/21-10-06-categorizing-for-clarity__cash-flow-statement-adjustments-to-improve-insight.pdf"
+    },
+    "mm_115_2016_thoughts_on_dividends_and_buybacks__clearing_up_some_common_misconceptions.pdf": {
+      "id": 115,
+      "year": "2016",
+      "date": "5/3",
+      "institution": "Credit Suisse",
+      "title": "Thoughts on Dividends and Buybacks: Clearing Up Some Common Misconceptions",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-05-03-thoughts-on-dividends-and-buybacks__clearing-up-some-common-misconceptions.pdf"
+    },
+    "mm_170_2024_stock_market_concentration__how_much_is_too_much_.pdf": {
+      "id": 170,
+      "year": "2024",
+      "date": "6/4",
+      "institution": "Counterpoint",
+      "title": "Stock Market Concentration: How Much Is Too Much?",
+      "url": "https://www.morganstanley.com/im/publication/insights/articles/article_stockmarketconcentration.pdf?1729042767278"
+    },
+    "mm_123_2016_capital_allocation_outside_the_us__evidence__analytical_methods___assessment_guidance.pdf": {
+      "id": 123,
+      "year": "2016",
+      "date": "11/15",
+      "institution": "Credit Suisse",
+      "title": "Capital Allocation Outside the US: Evidence, Analytical Methods & Assessment Guidance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-11-15-capital-allocation-outside-the-us__evidence-analytical-methods-assessment-guidance.pdf"
+    },
+    "mm_171_2024_which_one_is_it___equity_issuance_and_retirement.pdf": {
+      "id": 171,
+      "year": "2024",
+      "date": "7/24",
+      "institution": "Counterpoint",
+      "title": "Which One Is It?: Equity Issuance and Retirement",
+      "url": "https://www.morganstanley.com/im/publication/insights/articles/article_whichoneisitequityissuanceretirement.pdf?1729042771985"
+    },
+    "mm_146_2021_everything_is_a_dcf_model__a_mantra_for_valuing_cash_generating_assets.pdf": {
+      "id": 146,
+      "year": "2021",
+      "date": "8/3",
+      "institution": "Counterpoint",
+      "title": "Everything Is a DCF Model: A Mantra for Valuing Cash-Generating Assets",
+      "url": "https://12mv2.files.wordpress.com/2024/04/21-08-03-everything-is-a-dcf-model__a-mantra-for-valuing-cash-generating-assets.pdf"
+    },
+    "mm_126_2017_corporate_longevity__index_turnover_and_corporate_performance.pdf": {
+      "id": 126,
+      "year": "2017",
+      "date": "2/7",
+      "institution": "Credit Suisse",
+      "title": "Corporate Longevity: Index Turnover and Corporate Performance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/17-02-07-corporate-longevity__index-turnover-and-corporate-performance.pdf"
+    },
+    "mm_145_2021_the_impact_of_intangibles_on_base_rates.pdf": {
+      "id": 145,
+      "year": "2021",
+      "date": "6/23",
+      "institution": "Counterpoint",
+      "title": "The Impact of Intangibles on Base Rates",
+      "url": "https://12mv2.files.wordpress.com/2024/04/21-06-23-the-impact-of-intangibles-on-base-rates.pdf"
+    },
+    "mm_135_2019_looking_for_easy_games_in_bonds.pdf": {
+      "id": 135,
+      "year": "2019",
+      "date": "4/16",
+      "institution": "Blue Mountain",
+      "title": "Looking for Easy Games in Bonds",
+      "url": "https://12mv2.files.wordpress.com/2024/04/19-04-16-looking-for-easy-games-in-bonds.pdf"
+    },
+    "mm_098_2015_managing_the_man_overboard_moment__making_an_informed_decision_after_a_large_price_drop.pdf": {
+      "id": 98,
+      "year": "2015",
+      "date": "1/15",
+      "institution": "Credit Suisse",
+      "title": "Managing the Man Overboard Moment: Making an Informed Decision After a Large Price Drop",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-01-15-managing-the-man-overboard-moment__making-an-informed-decision-after-a-large-price-drop.pdf"
+    },
+    "mm_153_2022_new_business_boom_and_bust__how_capitalism_experiments.pdf": {
+      "id": 153,
+      "year": "2022",
+      "date": "6/15",
+      "institution": "Counterpoint",
+      "title": "New Business Boom and Bust: How Capitalism Experiments",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-06-15-new-business-boom-and-bust__how-capitalism-experiments.pdf"
+    },
+    "mm_101_2015_the_base_rate_book___sales_growth__integrating_the_past_to_better_anticipate_the_future_v1.pdf": {
+      "id": 101,
+      "year": "2015",
+      "date": "5/4",
+      "institution": "Credit Suisse",
+      "title": "The Base Rate Book - Sales Growth: Integrating the Past to Better Anticipate the Future_v1",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-05-04-the-base-rate-book-sales-growth__integrating-the-past-to-better-anticipate-the-future_v1.pdf"
+    },
+    "mm_118_2016_global_industry_profit_pools__visualizing_value_creation_for_an_industry.pdf": {
+      "id": 118,
+      "year": "2016",
+      "date": "7/9",
+      "institution": "Credit Suisse",
+      "title": "Global Industry Profit Pools: Visualizing Value Creation for an Industry",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-07-09-global-industry-profit-pools__visualizing-value-creation-for-an-industry.pdf"
+    },
+    "mm_172_2024_measuring_the_moat__assessing_the_magnitude_and_sustainability_of_value_creation.pdf": {
+      "id": 172,
+      "year": "2024",
+      "date": "10/15",
+      "institution": "Counterpoint",
+      "title": "Measuring the Moat: Assessing the Magnitude and Sustainability of Value Creation",
+      "url": "https://www.morganstanley.com/im/publication/insights/articles/article_measuringthemoat.pdf?1729042773098"
+    },
+    "mm_160_2023_confidence__methods_to_assess_confidence_under_uncertainty.pdf": {
+      "id": 160,
+      "year": "2023",
+      "date": "3/22",
+      "institution": "Counterpoint",
+      "title": "Confidence: Methods to Assess Confidence Under Uncertainty",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-03-22-confidence__methods-to-assess-confidence-under-uncertainty.pdf"
+    },
+    "mm_102_2015_iq_versus_rq__differentiating_smarts_from_decision_making_skills.pdf": {
+      "id": 102,
+      "year": "2015",
+      "date": "5/12",
+      "institution": "Credit Suisse",
+      "title": "IQ versus RQ: Differentiating Smarts from Decision-Making Skills",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-05-12-iq-versus-rq__differentiating-smarts-from-decision-making-skills.pdf"
+    },
+    "mm_154_2022_good_losses__bad_losses__all_losses_are_not_created_equal.pdf": {
+      "id": 154,
+      "year": "2022",
+      "date": "7/20",
+      "institution": "Counterpoint",
+      "title": "Good Losses, Bad Losses: All Losses Are Not Created Equal",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-07-20-good-losses-bad-losses__all-losses-are-not-created-equal.pdf"
+    },
+    "mm_167_2024_increasing_returns__identifying_forms_of_increasing_returns_and_what_drives_them.pdf": {
+      "id": 167,
+      "year": "2024",
+      "date": "1/30",
+      "institution": "Counterpoint",
+      "title": "Increasing Returns: Identifying Forms of Increasing Returns and What Drives Them",
+      "url": "https://12mv2.files.wordpress.com/2024/04/24-01-30-increasing-returns__identifying-forms-of-increasing-returns-and-what-drives-them.pdf"
+    },
+    "mm_157_2022_roic_and_intangible_assets__a_look_at_how_adjustments_for_intangibles_affect_roic.pdf": {
+      "id": 157,
+      "year": "2022",
+      "date": "11/9",
+      "institution": "Counterpoint",
+      "title": "ROIC and Intangible Assets: A Look at How Adjustments for Intangibles Affect ROIC",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-11-09-roic-and-intangible-assets__a-look-at-how-adjustments-for-intangibles-affect-roic.pdf"
+    },
+    "mm_152_2022_wealth_transfers__redistribution_of_value_via_capital_allocation.pdf": {
+      "id": 152,
+      "year": "2022",
+      "date": "5/10",
+      "institution": "Counterpoint",
+      "title": "Wealth Transfers: Redistribution of Value via Capital Allocation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-05-10-wealth-transfers__redistribution-of-value-via-capital-allocation.pdf"
+    },
+    "mm_142_2020_wacc_and_vol__valuatoin_for_companies_with_real_options.pdf": {
+      "id": 142,
+      "year": "2020",
+      "date": "12/21",
+      "institution": "Counterpoint",
+      "title": "WACC and Vol: Valuatoin for Companies with Real Options",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-12-21-wacc-and-vol__valuation-for-companies-with-real-options.pdf"
+    },
+    "mm_138_2020_myth_busting__popular_delusions__and_the_variant_perception.pdf": {
+      "id": 138,
+      "year": "2020",
+      "date": "5/20",
+      "institution": "Counterpoint",
+      "title": "Myth Busting, Popular Delusions, and the Variant Perception",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-05-20-myth-busting-popular-delusions-and-the-variant-perception.pdf"
+    },
+    "mm_083_2013_measuring_the_moat__assessing_the_magnitude_and_sustainability_of_value_creation.pdf": {
+      "id": 83,
+      "year": "2013",
+      "date": "7/22",
+      "institution": "Credit Suisse",
+      "title": "Measuring the Moat: Assessing the Magnitude and Sustainability of Value Creation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-07-22-measuring-the-moat__assessing-the-magnitude-and-sustainability-of-value-creation.pdf"
+    },
+    "mm_150_2022_feedback__information_as_a_basis_for_improvement.pdf": {
+      "id": 150,
+      "year": "2022",
+      "date": "3/16",
+      "institution": "Counterpoint",
+      "title": "Feedback: Information as a Basis for Improvement",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-03-16-feedback__information-as-a-basis-for-improvement.pdf"
+    },
+    "mm_041_2002_measuring_the_moat__assessing_the_magnitude_and_sustainability_of_value_creation.pdf": {
+      "id": 41,
+      "year": "2002",
+      "date": "12/16",
+      "institution": "CS First Boston",
+      "title": "Measuring the Moat: Assessing the Magnitude and Sustainability of Value Creation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/02-12-16-measuring-the-moat__assessing-the-magnitude-and-sustainability-of-value-creation.pdf"
+    },
+    "mm_164_2023_trading_stages_in_the_company_life_cycle.pdf": {
+      "id": 164,
+      "year": "2023",
+      "date": "9/26",
+      "institution": "Counterpoint",
+      "title": "Trading Stages in the Company Life Cycle",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-09-26-trading-stages-in-the-company-life-cycle.pdf"
+    },
+    "mm_133_2018_what_does_an_ev_ebitda_multiple_mean_.pdf": {
+      "id": 133,
+      "year": "2018",
+      "date": "9/13",
+      "institution": "Blue Mountain",
+      "title": "What Does an EV/EBITDA Multiple Mean?",
+      "url": "https://12mv2.files.wordpress.com/2024/04/18-09-13-what-does-an-ev-ebitda-multiple-mean.pdf"
+    },
+    "mm_100_2015_min_d_ing_the_opportunity__excess_returns_require_the_chance_to_apply_skill.pdf": {
+      "id": 100,
+      "year": "2015",
+      "date": "3/17",
+      "institution": "Credit Suisse",
+      "title": "Min(d)ing the Opportunity: Excess Returns Require the Chance to Apply Skill",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-03-17-minding-the-opportunity__excess-returns-require-the-chance-to-apply-skill.pdf"
+    },
+    "mm_122_2016_measuring_the_moat__assessing_the_magnitude_and_sustainability_of_value_creation.pdf": {
+      "id": 122,
+      "year": "2016",
+      "date": "11/1",
+      "institution": "Credit Suisse",
+      "title": "Measuring the Moat: Assessing the Magnitude and Sustainability of Value Creation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-10-19-capital-allocation__evidence-analytical-methods-and-assessment-guidance.pdf"
+    },
+    "mm_139_2020_the_math_of_value_and_growth__growth__return_on_capital__and_the_discount_rate.pdf": {
+      "id": 139,
+      "year": "2020",
+      "date": "6/9",
+      "institution": "Counterpoint",
+      "title": "The Math of Value and Growth: Growth, Return on Capital, and the Discount Rate",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-06-09-the-math-of-value-and-growth__growth-return-on-capital-and-the-discount-rate.pdf"
+    },
+    "mm_023_2000_counting_what_counts__cash_flow_as_a_universal_language.pdf": {
+      "id": 23,
+      "year": "2000",
+      "date": "2/4",
+      "institution": "CS First Boston",
+      "title": "Counting What Counts: Cash Flow as a Universal Language",
+      "url": "https://12mv2.files.wordpress.com/2024/04/00-02-04-counting-what-counts__cash-flow-as-a-universal-language.pdf"
+    },
+    "mm_168_2024_cost_of_capital_and_capital_allocation__investment_in_the_era_of__easy_money_.pdf": {
+      "id": 168,
+      "year": "2024",
+      "date": "2/28",
+      "institution": "Counterpoint",
+      "title": "Cost of Capital and Capital Allocation: Investment in the Era of \"Easy Money\"",
+      "url": "https://12mv2.files.wordpress.com/2024/04/24-02-28-cost-of-capital-and-capital-allocation__investment-in-the-era-of-_easy-money_.pdf"
+    },
+    "mm_149_2022_underestimating_the_red_queen__measuring_growth_and_maintenance_investments.pdf": {
+      "id": 149,
+      "year": "2022",
+      "date": "1/27",
+      "institution": "Counterpoint",
+      "title": "Underestimating the Red Queen: Measuring Growth and Maintenance Investments",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-01-27-underestimating-the-red-queen__measuring-growth-and-maintenance-investments.pdf"
+    },
+    "mm_143_2021_market_expected_return_on_investment__bridging_accounting_and_valuation.pdf": {
+      "id": 143,
+      "year": "2021",
+      "date": "4/14",
+      "institution": "Counterpoint",
+      "title": "Market-Expected Return on Investment: Bridging Accounting and Valuation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/21-04-14-market-expected-return-on-investment__bridging-accounting-and-valuation.pdf"
+    },
+    "mm_036_2002_the_babe_ruth_effect__frequency_versus_magnitude.pdf": {
+      "id": 36,
+      "year": "2002",
+      "date": "1/29",
+      "institution": "CS First Boston",
+      "title": "The Babe Ruth Effect: Frequency versus Magnitude",
+      "url": "https://12mv2.files.wordpress.com/2024/04/02-01-29-the-babe-ruth-effect__frequency-versus-magnitude.pdf"
+    },
+    "mm_137_2020_dispersion___alpha_conversion__how_dispersion_creates_the_opportunity_to_express_skill.pdf": {
+      "id": 137,
+      "year": "2020",
+      "date": "4/14",
+      "institution": "Counterpoint",
+      "title": "Dispersion & Alpha Conversion: How Dispersion Creates the Opportunity to Express Skill",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-04-14-dispersion-alpha-conversion__how-dispersion-creates-the-opportunity-to-express-skill.pdf"
+    },
+    "mm_151_2022_intangibles_and_earnings__improving_the_usefulness_of_financial_statements.pdf": {
+      "id": 151,
+      "year": "2022",
+      "date": "4/12",
+      "institution": "Counterpoint",
+      "title": "Intangibles and Earnings: Improving the Usefulness of Financial Statements",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-04-12-intangibles-and-earnings__improving-the-usefulness-of-financial-statements.pdf"
+    },
+    "mm_085_2013_estimating_the_cost_of_capital__a_practical_guide_to_assessing_opportunity_cost.pdf": {
+      "id": 85,
+      "year": "2013",
+      "date": "10/8",
+      "institution": "Credit Suisse",
+      "title": "Estimating the Cost of Capital: A Practical Guide to Assessing Opportunity Cost",
+      "url": "https://12mv2.files.wordpress.com/2024/04/13-10-08-estimating-the-cost-of-capital__a-practical-guide-to-assessing-opportunity-cost.pdf"
+    },
+    "mm_169_2024_valuation_multiples__what_they_miss__why_they_differ__and_the_link_to_fundamentals.pdf": {
+      "id": 169,
+      "year": "2024",
+      "date": "4/23",
+      "institution": "Counterpoint",
+      "title": "Valuation Multiples: What They Miss, Why They Differ, and the Link to Fundamentals",
+      "url": "https://12mv2.files.wordpress.com/2024/04/24-04-23-valuation-multiples__what-they-miss-why-they-differ-and-the-link-to-fundamentals.pdf"
+    },
+    "mm_025_2000_still_powerful__the_internet_s_hidden_order.pdf": {
+      "id": 25,
+      "year": "2000",
+      "date": "7/7",
+      "institution": "CS First Boston",
+      "title": "Still Powerful: The Internet\u2019s Hidden Order",
+      "url": "https://12mv2.files.wordpress.com/2024/04/00-07-07-still-powerful__the-internets-hidden-order.pdf"
+    },
+    "mm_103_2015_capital_allocation___updated__evidence__analytical_methods__and_assessment_guidance.pdf": {
+      "id": 103,
+      "year": "2015",
+      "date": "6/2",
+      "institution": "Credit Suisse",
+      "title": "Capital Allocation - Updated: Evidence, Analytical Methods, and Assessment Guidance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-06-02-capital-allocation-updated__evidence-analytical-methods-and-assessment-guidance.pdf"
+    },
+    "mm_159_2023_cost_of_capital__a_practical_guide_to_measuring_opportunity_cost.pdf": {
+      "id": 159,
+      "year": "2023",
+      "date": "2/15",
+      "institution": "Counterpoint",
+      "title": "Cost of Capital: A Practical Guide to Measuring Opportunity Cost",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-02-15-cost-of-capital__a-practical-guide-to-measuring-opportunity-cost.pdf"
+    },
+    "mm_134_2019_who_is_on_the_other_side__you_need_good_bait_to_land_a_winner.pdf": {
+      "id": 134,
+      "year": "2019",
+      "date": "2/12",
+      "institution": "Blue Mountain",
+      "title": "Who Is On the Other Side? You Need Good BAIT to Land a Winner",
+      "url": "https://12mv2.files.wordpress.com/2024/04/19-02-12-who-is-on-the-other-side__you-need-good-bait-to-land-a-winner.pdf"
+    },
+    "mm_155_2022_market_share__understanding_competitive_advantage_through_market_power.pdf": {
+      "id": 155,
+      "year": "2022",
+      "date": "9/15",
+      "institution": "Counterpoint",
+      "title": "Market Share: Understanding Competitive Advantage Through Market Power",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-09-15-market-share__understanding-competitive-advantage-through-market-power.pdf"
+    },
+    "mm_140_2020_public_to_private_equity_in_the_united_states__a_long_term_look.pdf": {
+      "id": 140,
+      "year": "2020",
+      "date": "8/4",
+      "institution": "Counterpoint",
+      "title": "Public to Private Equity in the United States: A Long-Term Look",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-08-04-public-to-private-equity-in-the-united-states__a-long-term-look.pdf"
+    },
+    "mm_144_2021_the_economics_of_customer_businesses__calculating_customer_based_corporate_valuation.pdf": {
+      "id": 144,
+      "year": "2021",
+      "date": "5/19",
+      "institution": "Counterpoint",
+      "title": "The Economics of Customer Businesses: Calculating Customer-Based Corporate Valuation",
+      "url": "https://12mv2.files.wordpress.com/2024/04/21-05-19-the-economics-of-customer-businesses__calculating-customer-based-corporate-valuation.pdf"
+    },
+    "mm_166_2023_pattern_recognition__opportunities_and_limits.pdf": {
+      "id": 166,
+      "year": "2023",
+      "date": "12/13",
+      "institution": "Counterpoint",
+      "title": "Pattern Recognition: Opportunities and Limits",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-12-13-pattern-recognition__opportunities-and-limits.pdf"
+    },
+    "mm_156_2022_return_on_invested_capital__how_to_calculate_roic_and_handle_common_issues.pdf": {
+      "id": 156,
+      "year": "2022",
+      "date": "10/6",
+      "institution": "Counterpoint",
+      "title": "Return on Invested Capital: How to Calculate ROIC and Handle Common Issues",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-10-06-return-on-invested-capital__how-to-calculate-roic-and-handle-common-issues.pdf"
+    },
+    "mm_121_2016_capital_allocation__evidence__analytical_methods__and_assessment_guidance.pdf": {
+      "id": 121,
+      "year": "2016",
+      "date": "10/19",
+      "institution": "Credit Suisse",
+      "title": "Capital Allocation: Evidence, Analytical Methods, and Assessment Guidance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-10-19-capital-allocation__evidence-analytical-methods-and-assessment-guidance.pdf"
+    },
+    "mm_141_2020_one_job__expectations_and_the_role_of_intangible_investments.pdf": {
+      "id": 141,
+      "year": "2020",
+      "date": "9/1",
+      "institution": "Counterpoint",
+      "title": "One Job: Expectations and the Role of Intangible Investments",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-09-15-one-job__expectations-and-the-role-of-intangible-investments.pdf"
+    },
+    "mm_162_2023_roic_and_the_investment_process__roics__how_they_change__and_shareholder_returns.pdf": {
+      "id": 162,
+      "year": "2023",
+      "date": "6/6",
+      "institution": "Counterpoint",
+      "title": "ROIC and the Investment Process: ROICs, How They Change, and Shareholder Returns",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-06-06-roic-and-the-investment-process__roics-how-they-change-and-shareholder-returns.pdf"
+    },
+    "mm_136_2020_bin_there__done_that__how_to_reduce_the_sources_of_forecasting_error.pdf": {
+      "id": 136,
+      "year": "2020",
+      "date": "3/19",
+      "institution": "Counterpoint",
+      "title": "BIN There, Done That: How to Reduce the Sources of Forecasting Error",
+      "url": "https://12mv2.files.wordpress.com/2024/04/20-03-19-bin-there-done-that__how-to-reduce-the-sources-of-forecasting-error.pdf"
+    },
+    "mm_147_2021_turn_and_face_the_strange__overcoming_barriers_to_change_in_sports_and_investing.pdf": {
+      "id": 147,
+      "year": "2021",
+      "date": "9/8",
+      "institution": "Counterpoint",
+      "title": "Turn and Face the Strange: Overcoming Barriers to Change in Sports and Investing",
+      "url": "https://12mv2.files.wordpress.com/2024/04/21-09-08-turn-and-face-the-strange__overcoming-barriers-to-change-in-sports-and-investing.pdf"
+    },
+    "mm_094_2014_capital_allocation__evidence__analytical_methods__and_assessment_guidance.pdf": {
+      "id": 94,
+      "year": "2014",
+      "date": "8/5",
+      "institution": "Credit Suisse",
+      "title": "Capital Allocation: Evidence, Analytical Methods, and Assessment Guidance",
+      "url": "https://12mv2.files.wordpress.com/2024/04/14-08-05-capital-allocation__evidence-analytical-methods-and-assessment-guidance.pdf"
+    },
+    "mm_165_2023_total_shareholder_return__linking_the_drivers_of_total_returns_to_fundamentals.pdf": {
+      "id": 165,
+      "year": "2023",
+      "date": "10/24",
+      "institution": "Counterpoint",
+      "title": "Total Shareholder Return: Linking The Drivers of Total Returns to Fundamentals",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-10-24-total-shareholder-return__linking-the-drivers-of-total-returns-to-fundamentals.pdf"
+    },
+    "mm_163_2023_birth__death__and_wealth_creation__why_investors_need_to_understand_corporate_demographics.pdf": {
+      "id": 163,
+      "year": "2023",
+      "date": "7/25",
+      "institution": "Counterpoint",
+      "title": "Birth, Death, and Wealth Creation: Why Investors Need to Understand Corporate Demographics",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-07-25-birth-death-and-wealth-creation__why-investors-need-to-understand-corporate-demographics.pdf"
+    },
+    "mm_161_2023_stock_based_compensation__unpacking_the_issues.pdf": {
+      "id": 161,
+      "year": "2023",
+      "date": "4/18",
+      "institution": "Counterpoint",
+      "title": "Stock-Based Compensation: Unpacking the Issues",
+      "url": "https://12mv2.files.wordpress.com/2024/04/23-04-18-stock-based-compensation__unpacking-the-issues.pdf"
+    },
+    "mm_158_2022_capital_allocation__results__analysis__and_assessment.pdf": {
+      "id": 158,
+      "year": "2022",
+      "date": "12/14",
+      "institution": "Counterpoint",
+      "title": "Capital Allocation: Results, Analysis, and Assessment",
+      "url": "https://12mv2.files.wordpress.com/2024/04/22-12-15-capital-allocation__results-analysis-and-assessment.pdf"
+    },
+    "mm_113_2016_what_makes_for_a_useful_statistic__not_all_numbers_are_created_equal.pdf": {
+      "id": 113,
+      "year": "2016",
+      "date": "4/5",
+      "institution": "Credit Suisse",
+      "title": "What Makes for a Useful Statistic: Not All Numbers Are Created Equal",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-04-05-what-makes-for-a-useful-statistic__not-all-numbers-are-created-equal.pdf"
+    },
+    "mm_109_2015_the_base_rate_book___earnings_growth__integrating_the_past_to_better_anticipate_the_future.pdf": {
+      "id": 109,
+      "year": "2015",
+      "date": "12/16",
+      "institution": "Credit Suisse",
+      "title": "The Base Rate Book - Earnings Growth: Integrating the Past to Better Anticipate the Future",
+      "url": "https://12mv2.files.wordpress.com/2024/04/15-12-16-the-base-rate-book-earnings-growth__integrating-the-past-to-better-anticipate-the-future.pdf"
+    },
+    "mm_120_2016_the_base_rate_book__integrating_the_past_to_better_anticipate_the_future.pdf": {
+      "id": 120,
+      "year": "2016",
+      "date": "9/26",
+      "institution": "Credit Suisse",
+      "title": "The Base Rate Book: Integrating the Past to Better Anticipate the Future",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-09-26-the-base-rate-book__integrating-the-past-to-better-anticipate-the-future.pdf"
+    },
+    "mm_116_2016_operating_leverage__a_framework_for_anticipating_changes_in_earnings.pdf": {
+      "id": 116,
+      "year": "2016",
+      "date": "6/14",
+      "institution": "Credit Suisse",
+      "title": "Operating Leverage: A Framework for Anticipating Changes in Earnings",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-06-14-operating-leverage__a-framework-for-anticipating-changes-in-earnings.pdf"
+    },
+    "mm_114_2016_the_base_rate_book___gross_profitability__integrating_the_past_to_better_anticipate_the_future.pdf": {
+      "id": 114,
+      "year": "2016",
+      "date": "4/25",
+      "institution": "Credit Suisse",
+      "title": "The Base Rate Book - Gross Profitability: Integrating the Past to Better Anticipate the Future",
+      "url": "https://12mv2.files.wordpress.com/2024/04/16-04-25-the-base-rate-book-gross-profitability__integrating-the-past-to-better-anticipate-the-future.pdf"
+    }
+  }
+}
