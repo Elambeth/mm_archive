@@ -6,7 +6,7 @@ import time
 from typing import List, Tuple
 
 # Direct configuration - replace with your values
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 DB_CONFIG = {
     "dbname": "mauboussin",  # Your database name
     "user": "postgres",      # Your postgres username
