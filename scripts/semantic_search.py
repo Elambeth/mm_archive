@@ -137,7 +137,7 @@ class MauboussinSearch:
                 conn.close()
 
 def main():
-    OPENAI_API_KEY = "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"  # Replace with your key
+    OPENAI_API_KEY = ""  # Replace with your key
     searcher = MauboussinSearch(OPENAI_API_KEY)
     
     while True:

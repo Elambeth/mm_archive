@@ -166,7 +166,7 @@ class PaperTagger:
 
 def main():
     # Your Deepseek API key
-    api_key = "sk-231c14752f1d4b3c8517869bc332cf0e"  # Replace with your actual API key
+    api_key = ""  # Replace with your actual API key
     
     # Path to your test directory with JSON files
     json_dir = r"C:\Users\elamb\OneDrive\Desktop\mm_archive\new_processed"  # Use raw string with full path
