@@ -249,8 +249,11 @@ Answer:"""
         }
 
 def main():
-    DEEPSEEK_API_KEY = "sk-231c14752f1d4b3c8517869bc332cf0e"  # Replace with your key
-    bot = MauboussinGPT(DEEPSEEK_API_KEY)
+    # Load environment variables
+    load_dotenv()
+    
+    # Initialize bot without passing API key since it's now handled in __init__
+    bot = MauboussinGPT()
     
     while True:
         print("\nAsk a question about Mauboussin's work (or 'quit' to exit):")
