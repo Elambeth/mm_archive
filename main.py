@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
+from fastapi.staticfiles import StaticFiles  # Add this import
 from pydantic import BaseModel
 from search import MauboussinGPT
 import traceback
@@ -25,6 +26,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.mount("/pdfs", StaticFiles(directory="data/pdfs_again"), name="pdfs")
 
 # Initialize your RAG system
 try:

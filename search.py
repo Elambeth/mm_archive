@@ -34,6 +34,7 @@ class MauboussinGPT:
             'password': os.getenv('DB_PASSWORD', 'alwayslearning'),
             'host': os.getenv('DB_HOST', 'localhost')
         }
+    
     def get_embedding(self, text: str) -> List[float]:
         """Generate embedding using OpenAI"""
         response = self.embedding_client.embeddings.create(
@@ -70,6 +71,29 @@ class MauboussinGPT:
         content = re.sub(r'\s+', ' ', content)
         
         return content.strip()
+
+    def get_paper_tags(self, paper_id: str) -> List[str]:
+        """Fetch tags for a specific paper."""
+        try:
+            conn = psycopg2.connect(**self.db_params)
+            cur = conn.cursor()
+            
+            cur.execute("""
+                SELECT DISTINCT t.name 
+                FROM tags t 
+                JOIN paper_tags pt ON t.id = pt.tag_id 
+                WHERE pt.paper_id = %s
+                ORDER BY t.name
+            """, (paper_id,))
+            
+            tags = [row[0] for row in cur.fetchall()]
+            return tags
+            
+        finally:
+            if 'cur' in locals():
+                cur.close()
+            if 'conn' in locals():
+                conn.close()
 
     def get_content_snippet(self, content: str, max_length: int = 1500) -> str:
         """Get a meaningful content snippet of specified length"""
@@ -110,7 +134,6 @@ class MauboussinGPT:
             conn = psycopg2.connect(**self.db_params)
             cur = conn.cursor()
 
-            # Get pages with context from surrounding pages
             cur.execute("""
                 WITH RankedPages AS (
                     SELECT 
@@ -120,8 +143,8 @@ class MauboussinGPT:
                         p.content,
                         p.embedding,
                         papers.title, 
-                        papers.year, 
-                        papers.pdf_url,
+                        papers.year,
+                        papers.original_filename,
                         LAG(p.content) OVER (PARTITION BY p.paper_id ORDER BY p.page_number) as prev_content,
                         LEAD(p.content) OVER (PARTITION BY p.paper_id ORDER BY p.page_number) as next_content
                     FROM pages p
@@ -134,14 +157,14 @@ class MauboussinGPT:
             results = []
             for row in cur.fetchall():
                 (page_id, paper_id, page_num, content, embedding_str, 
-                 title, year, pdf_url, prev_content, next_content) = row
+                title, year, original_filename, prev_content, next_content) = row
                 
                 # Calculate similarity
                 page_embedding = self.parse_vector_string(embedding_str)
                 similarity = self.cosine_similarity(query_embedding, page_embedding)
                 
                 # Get content with context
-                main_content = self.get_content_snippet(content)
+                current_content = self.get_content_snippet(content)  # Changed to this variable name
                 context = ""
                 
                 if prev_content and similarity > 0.6:
@@ -154,16 +177,20 @@ class MauboussinGPT:
                     if next_snippet:
                         context += f"Next page: {next_snippet}"
                 
+                # Get tags for the paper
+                tags = self.get_paper_tags(paper_id)
+                
                 results.append({
                     'page_id': page_id,
                     'paper_id': paper_id,
                     'page_number': page_num,
-                    'content': main_content,
+                    'content': current_content,  # Use the correct variable name here
                     'context': context if context.strip() else None,
                     'title': title,
                     'year': year,
-                    'pdf_url': pdf_url,
-                    'similarity': similarity
+                    'filename': original_filename,
+                    'similarity': similarity,
+                    'tags': tags
                 })
 
             # Sort by similarity and get top results
@@ -175,7 +202,6 @@ class MauboussinGPT:
                 cur.close()
             if 'conn' in locals():
                 conn.close()
-
     def create_prompt(self, query: str, search_results: List[Dict]) -> str:
         """Create a prompt for Deepseek using the search results"""
         prompt = f"""You are an AI assistant specialized in Michael Mauboussin's work. 
@@ -238,10 +264,12 @@ Answer:"""
             'answer': answer,
             'sources': [
                 {
+                    'id': r['paper_id'],
                     'title': r['title'],
                     'year': r['year'],
                     'page': r['page_number'],
-                    'url': r['pdf_url'],
+                    'tags': r['tags'],
+                    'filename': r['filename'],
                     'excerpt': r['content'][:200] + '...' if len(r['content']) > 200 else r['content']
                 }
                 for r in search_results
