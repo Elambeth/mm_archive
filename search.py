@@ -43,17 +43,6 @@ class MauboussinGPT:
         )
         return response.data[0].embedding
 
-    def parse_vector_string(self, vector_str: str) -> List[float]:
-        """Convert string vector to list of floats"""
-        clean_str = vector_str.strip('[]')
-        return [float(x) for x in clean_str.split(',')]
-
-    def cosine_similarity(self, a: List[float], b: List[float]) -> float:
-        """Calculate cosine similarity between two vectors"""
-        a = np.array(a)
-        b = np.array(b)
-        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
     def clean_content(self, content: str) -> str:
         """Clean the content by removing boilerplate text and formatting"""
         # Remove copyright notices and headers
@@ -127,44 +116,47 @@ class MauboussinGPT:
         return '\n\n'.join(result)
 
     def search(self, query: str, num_results: int = 5) -> List[Dict]:
-        """Search for most relevant passages given a query"""
+        """Search for most relevant passages using vector similarity"""
         query_embedding = self.get_embedding(query)
-
+        
         try:
             conn = psycopg2.connect(**self.db_params)
             cur = conn.cursor()
-
-            cur.execute("""
-                WITH RankedPages AS (
-                    SELECT 
-                        p.id, 
-                        p.paper_id, 
-                        p.page_number, 
-                        p.content,
-                        p.embedding,
-                        papers.title, 
-                        papers.year,
-                        papers.original_filename,
-                        LAG(p.content) OVER (PARTITION BY p.paper_id ORDER BY p.page_number) as prev_content,
-                        LEAD(p.content) OVER (PARTITION BY p.paper_id ORDER BY p.page_number) as next_content
-                    FROM pages p
-                    JOIN papers ON p.paper_id = papers.id
-                    WHERE p.embedding IS NOT NULL
-                )
-                SELECT * FROM RankedPages
+            
+            # Convert embedding to PostgreSQL array syntax
+            embedding_array = f"'[{','.join(map(str, query_embedding))}]'"
+            
+            # Use vector operations for similarity search
+            cur.execute(f"""
+                SELECT 
+                    p.id, 
+                    p.paper_id, 
+                    p.page_number, 
+                    p.content,
+                    papers.title, 
+                    papers.year,
+                    papers.original_filename,
+                    LAG(p.content) OVER (PARTITION BY p.paper_id ORDER BY p.page_number) as prev_content,
+                    LEAD(p.content) OVER (PARTITION BY p.paper_id ORDER BY p.page_number) as next_content,
+                    1 - (p.embedding <=> {embedding_array}::vector(1536)) as similarity
+                FROM pages p
+                JOIN papers ON p.paper_id = papers.id
+                WHERE p.embedding IS NOT NULL
+                ORDER BY p.embedding <=> {embedding_array}::vector(1536)
+                LIMIT {num_results}
             """)
             
             results = []
+            paper_ids = []  # For batch tag retrieval
+            
             for row in cur.fetchall():
-                (page_id, paper_id, page_num, content, embedding_str, 
-                title, year, original_filename, prev_content, next_content) = row
+                (page_id, paper_id, page_num, content, title, year, 
+                original_filename, prev_content, next_content, similarity) = row
                 
-                # Calculate similarity
-                page_embedding = self.parse_vector_string(embedding_str)
-                similarity = self.cosine_similarity(query_embedding, page_embedding)
+                paper_ids.append(paper_id)
                 
                 # Get content with context
-                current_content = self.get_content_snippet(content)  # Changed to this variable name
+                current_content = self.get_content_snippet(content)
                 context = ""
                 
                 if prev_content and similarity > 0.6:
@@ -177,31 +169,45 @@ class MauboussinGPT:
                     if next_snippet:
                         context += f"Next page: {next_snippet}"
                 
-                # Get tags for the paper
-                tags = self.get_paper_tags(paper_id)
-                
                 results.append({
                     'page_id': page_id,
                     'paper_id': paper_id,
                     'page_number': page_num,
-                    'content': current_content,  # Use the correct variable name here
+                    'content': current_content,
                     'context': context if context.strip() else None,
                     'title': title,
                     'year': year,
                     'filename': original_filename,
                     'similarity': similarity,
-                    'tags': tags
+                    'tags': []  # Will be filled in batch below
                 })
-
-            # Sort by similarity and get top results
-            results.sort(key=lambda x: x['similarity'], reverse=True)
-            return results[:num_results]
-
+            
+            # Batch fetch tags if we have results
+            if paper_ids:
+                placeholders = ','.join(['%s'] * len(paper_ids))
+                cur.execute(f"""
+                    SELECT pt.paper_id, array_agg(t.name ORDER BY t.name)
+                    FROM papers p
+                    LEFT JOIN paper_tags pt ON p.id = pt.paper_id
+                    LEFT JOIN tags t ON pt.tag_id = t.id
+                    WHERE p.id IN ({placeholders})
+                    GROUP BY pt.paper_id
+                """, paper_ids)
+                
+                paper_tags = dict(cur.fetchall())
+                
+                # Update results with tags
+                for result in results:
+                    result['tags'] = paper_tags.get(result['paper_id'], [])
+            
+            return results
+            
         finally:
             if 'cur' in locals():
                 cur.close()
             if 'conn' in locals():
                 conn.close()
+
     def create_prompt(self, query: str, search_results: List[Dict]) -> str:
         """Create a prompt for Deepseek using the search results"""
         prompt = f"""You are an AI assistant specialized in Michael Mauboussin's work. 

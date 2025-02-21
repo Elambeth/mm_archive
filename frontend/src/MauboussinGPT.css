@@ -1,4 +1,120 @@
-/* MauboussinGPT.css */
+.app-container {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Mobile Menu Button */
+.mobile-menu-button {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 50;
+  padding: 0.5rem;
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Overlay for mobile */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 5rem;
+  background: white;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+  transition: width 0.3s ease;
+  z-index: 30;
+}
+
+.sidebar:hover {
+  width: 16rem;
+}
+
+.sidebar-content {
+  padding: 1rem;
+  width: 16rem;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-logo {
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+
+.sidebar-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.sidebar:hover .sidebar-title {
+  opacity: 1;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-button span {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.sidebar:hover .nav-button span {
+  opacity: 1;
+}
+
+.nav-button:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 5rem;
+  transition: margin-left 0.3s ease;
+  min-height: 100vh;
+}
+
 .container {
   min-height: 100vh;
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
@@ -27,6 +143,7 @@
   line-height: 1.6;
 }
 
+/* Search Form Styles */
 .search-form {
   margin-bottom: 3rem;
   max-width: 800px;
@@ -38,6 +155,7 @@
 .search-container {
   display: flex;
   gap: 1rem;
+  align-items: stretch;
 }
 
 .search-input-container {
@@ -79,8 +197,17 @@
   color: #3b82f6;
 }
 
-button {
-  padding: 1.25rem 2rem;
+/* Button Styles */
+.search-container button {
+  padding: 0 2rem;
+  height: 100%;
+  min-height: 3.5rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 120px;
   background-color: #3b82f6;
   color: white;
   border: none;
@@ -89,7 +216,6 @@ button {
   font-size: 1.125rem;
   cursor: pointer;
   transition: all 0.2s ease;
-  white-space: nowrap;
 }
 
 button:hover {
@@ -103,6 +229,36 @@ button:disabled {
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
+}
+
+/* Response Content Styles */
+.answer-content a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.answer-content a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+/* Add these styles to your CSS file in the Response Content Styles section */
+.answer-content a.paper-link,
+.answer-content a.external-link {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  padding: 0.1rem 0.2rem;
+  margin: 0 -0.2rem;
+  border-radius: 0.2rem;
+}
+
+.answer-content a.paper-link:hover,
+.answer-content a.external-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+  background-color: #eff6ff;
 }
 
 .error-message {
@@ -156,6 +312,7 @@ button:disabled {
   font-size: 1.125rem;
 }
 
+/* Sources Styles */
 .sources-list {
   display: flex;
   flex-direction: column;
@@ -226,13 +383,10 @@ button:disabled {
   font-weight: 500;
 }
 
+/* Animations */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @keyframes slideUp {
@@ -252,6 +406,43 @@ button:disabled {
   75% { transform: translateX(5px); }
 }
 
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .sidebar-overlay {
+    display: block;
+  }
+
+  .sidebar {
+    transform: translateX(-100%);
+    width: 16rem;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar:hover {
+    width: 16rem;
+  }
+
+  .sidebar-title,
+  .nav-button span {
+    opacity: 1;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .container {
+    padding: 2rem 1rem;
+  }
+}
+
 @media (max-width: 640px) {
   .container {
     padding: 2rem 1rem;
@@ -265,110 +456,67 @@ button:disabled {
     flex-direction: column;
   }
 
-  button {
+  .search-container button {
     width: 100%;
+    min-height: 3rem;
   }
 
   .result-card {
     padding: 1.5rem;
   }
-  /* Add to MauboussinGPT.css */
-  .app-container {
-    display: flex;
-    min-height: 100vh;
-  }
-
-  .sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    background: white;
-    border-right: 1px solid #e2e8f0;
-    width: 64px;
-    transition: width 0.3s ease;
-    z-index: 10;
-  }
-
-  .sidebar.open {
-    width: 250px;
-  }
-
-  .sidebar-toggle {
-    position: absolute;
-    right: -12px;
-    top: 16px;
-    width: 24px;
-    height: 24px;
-    background: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  }
-
-  .sidebar-content {
+  /* Loading States */
+  .loading-state {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 1rem;
-    opacity: 0;
-    animation: fadeIn 0.3s ease forwards;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   }
 
-  .home-button {
+  .loading-step {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    width: 100%;
+    gap: 0.75rem;
     padding: 0.75rem;
-    background: #f8fafc;
-    border: none;
+    margin-bottom: 0.5rem;
     border-radius: 0.5rem;
-    color: #475569;
     transition: all 0.2s ease;
   }
 
-  .home-button:hover {
-    background: #f1f5f9;
-    color: #0f172a;
+  .loading-step.pending {
+    color: #3b82f6;
+    background-color: #eff6ff;
   }
 
-  .main-content {
-    flex: 1;
-    margin-left: 64px;
-    transition: margin-left 0.3s ease;
+  .loading-step.complete {
+    color: #059669;
+    background-color: #ecfdf5;
   }
 
-  .main-content.with-sidebar {
-    margin-left: 250px;
+  .loading-step.disabled {
+    color: #9ca3af;
+    background-color: #f3f4f6;
   }
 
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  .spinning {
+    animation: spin 1s linear infinite;
   }
 
-  @media (max-width: 768px) {
-    .sidebar {
-      width: 0;
-    }
-    
-    .sidebar.open {
-      width: 250px;
-    }
-    
-    .main-content {
-      margin-left: 0;
-    }
-    
-    .main-content.with-sidebar {
-      margin-left: 250px;
-    }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .progress-section {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #fee2e2;
+  }
+
+  .progress-title {
+    color: #64748b;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
   }
 }
