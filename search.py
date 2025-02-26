@@ -13,31 +13,34 @@ class MauboussinGPT:
         
         # Get API keys from environment
         openai_api_key = os.getenv('OPENAI_API_KEY')
-        deepseek_api_key = os.getenv('DEEPSEEK_API_KEY')
         
-        if not openai_api_key or not deepseek_api_key:
-            raise ValueError("Missing required API keys in environment variables")
+        if not openai_api_key:
+            raise ValueError("Missing required API key in environment variables")
         
-        # OpenAI client for embeddings
-        self.embedding_client = OpenAI(api_key=openai_api_key)
+        # OpenAI client for both embeddings and chat
+        self.client = OpenAI(api_key=openai_api_key)
         
-        # Deepseek client for chat
-        self.chat_client = OpenAI(
-            api_key=deepseek_api_key,
-            base_url="https://api.deepseek.com"
-        )
+        # Store the database connection string
+        self.database_url = os.getenv('DATABASE_URL')
         
-        # Database connection parameters from environment variables
-        self.db_params = {
-            'dbname': os.getenv('DB_NAME', 'mauboussin'),
-            'user': os.getenv('DB_USER', 'postgres'),
-            'password': os.getenv('DB_PASSWORD', 'alwayslearning'),
-            'host': os.getenv('DB_HOST', 'localhost')
-        }
+        # Add this logging statement right here
+        if self.database_url:
+            print("Using Neon database connection")
+        else:
+            print("Using local database connection")
+
+        # Keep backward compatibility for local development
+        if not self.database_url:
+            self.db_params = {
+                'dbname': os.getenv('DB_NAME', 'mauboussin'),
+                'user': os.getenv('DB_USER', 'postgres'),
+                'password': os.getenv('DB_PASSWORD', 'alwayslearning'),
+                'host': os.getenv('DB_HOST', 'localhost')
+            }
     
     def get_embedding(self, text: str) -> List[float]:
         """Generate embedding using OpenAI"""
-        response = self.embedding_client.embeddings.create(
+        response = self.client.embeddings.create(
             model="text-embedding-3-small",
             input=text
         )
@@ -64,7 +67,12 @@ class MauboussinGPT:
     def get_paper_tags(self, paper_id: str) -> List[str]:
         """Fetch tags for a specific paper."""
         try:
-            conn = psycopg2.connect(**self.db_params)
+            # Use connection string if available, otherwise use db_params
+            if self.database_url:
+                conn = psycopg2.connect(self.database_url)
+            else:
+                conn = psycopg2.connect(**self.db_params)
+                
             cur = conn.cursor()
             
             cur.execute("""
@@ -120,7 +128,12 @@ class MauboussinGPT:
         query_embedding = self.get_embedding(query)
         
         try:
-            conn = psycopg2.connect(**self.db_params)
+            # Use connection string if available, otherwise use db_params
+            if self.database_url:
+                conn = psycopg2.connect(self.database_url)
+            else:
+                conn = psycopg2.connect(**self.db_params)
+                
             cur = conn.cursor()
             
             # Convert embedding to PostgreSQL array syntax
@@ -209,7 +222,7 @@ class MauboussinGPT:
                 conn.close()
 
     def create_prompt(self, query: str, search_results: List[Dict]) -> str:
-        """Create a prompt for Deepseek using the search results"""
+        """Create a prompt for OpenAI using the search results"""
         prompt = f"""You are an AI assistant specialized in Michael Mauboussin's work. 
 Answer the following question using ONLY the provided excerpts from his papers.
 
@@ -240,15 +253,17 @@ Answer:"""
         return prompt
 
     def generate_answer(self, prompt: str) -> str:
-        """Generate answer using Deepseek"""
+        """Generate answer using OpenAI o1 mini"""
         try:
-            response = self.chat_client.chat.completions.create(
-                model="deepseek-chat",
+            # Include the system message in the user prompt since o1-mini doesn't support system role
+            user_prompt = "You are an AI assistant specialized in Michael Mauboussin's work.\n\n" + prompt
+            
+            response = self.client.chat.completions.create(
+                model="o1-mini",  # Using OpenAI's o1-mini model
                 messages=[
-                    {"role": "system", "content": "You are an AI assistant specialized in Michael Mauboussin's work."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.7
+                    {"role": "user", "content": user_prompt}
+                ]
+                # Removed temperature parameter as it's not supported by o1-mini
             )
             return response.choices[0].message.content
         except Exception as e:
@@ -286,7 +301,7 @@ def main():
     # Load environment variables
     load_dotenv()
     
-    # Initialize bot without passing API key since it's now handled in __init__
+    # Initialize bot
     bot = MauboussinGPT()
     
     while True:
@@ -308,10 +323,11 @@ def main():
         
         # Print sources
         print("\nSources used:")
-        for source in result['sources']:
-            print(f"\n- {source['title']} ({source['year']}), page {source['page']}")
-            print(f"  Excerpt: {source['excerpt']}")
-            print(f"  URL: {source['url']}")
+        for i, source in enumerate(result['sources'], 1):
+            tags_str = ", ".join(source['tags']) if source['tags'] else "None"
+            print(f"\n{i}. {source['title']} ({source['year']}), page {source['page']}")
+            print(f"   Tags: {tags_str}")
+            print(f"   Excerpt: {source['excerpt']}")
 
 if __name__ == "__main__":
     main()

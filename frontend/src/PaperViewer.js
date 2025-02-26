@@ -28,8 +28,8 @@ const PaperViewer = () => {
     );
   }
 
-  // Construct the PDF URL with the full filename and page number
-  const pdfUrl = `http://localhost:8000/pdfs/${encodeURIComponent(paperInfo.filename)}#page=${paperInfo.page}`;
+  // Updated code
+  const pdfUrl = `/pdfs/${encodeURIComponent(paperInfo.filename)}#page=${paperInfo.page}`;
 
   return (
     <div className="paper-viewer">

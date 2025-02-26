@@ -42,7 +42,10 @@ ch.setLevel(logging.DEBUG)
 ch.setFormatter(ColoredFormatter())
 logger.addHandler(ch)
 
+
+# This won't work with Vercel as it won't be persistent
 # File handler for persistent logs
+'''
 fh = logging.FileHandler('mauboussin_gpt.log')
 fh.setLevel(logging.DEBUG)
 file_formatter = logging.Formatter(
@@ -51,6 +54,7 @@ file_formatter = logging.Formatter(
 )
 fh.setFormatter(file_formatter)
 logger.addHandler(fh)
+'''
 
 # Make sure we don't propagate to root logger
 logger.propagate = False
@@ -60,16 +64,16 @@ load_dotenv()
 
 app = FastAPI()
 
-# Add CORS middleware
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-app.mount("/pdfs", StaticFiles(directory="data/pdfs_again"), name="pdfs")
+#app.mount("/pdfs", StaticFiles(directory="data/pdfs_again"), name="pdfs")
 
 # Initialize RAG system with detailed logging
 try:
@@ -155,6 +159,9 @@ async def ask_question(query: Query):
                 "progress": result  # Include progress made before error
             }
         )
+
+from mangum import Mangum
+handler = Mangum(app)
 
 if __name__ == "__main__":
     import uvicorn
