@@ -159,13 +159,18 @@ async def ask_question(query: Query):
                 "progress": result  # Include progress made before error
             }
         )
+# Replace this at the bottom of your main.py file
 
-# Replace the current Mangum setup with this
-from mangum import Mangum
+# Remove/comment out the Mangum import and handler
+# from mangum import Mangum
+# handler = Mangum(app, lifespan="off")
 
-# Make sure this is OUTSIDE any conditional blocks like if __name__ == "__main__"
-handler = Mangum(app, lifespan="off")
+# Instead, add this function that Vercel can use
+@app.get("/api/health")
+async def health():
+    return {"status": "ok"}
 
+# Keep this for local development
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="debug")
