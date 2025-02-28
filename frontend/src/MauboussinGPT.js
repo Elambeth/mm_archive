@@ -28,7 +28,8 @@ const MauboussinGPT = () => {
     setResponse(null);
 
     try {
-      const res = await fetch('http://localhost:8000/api/ask', {
+      // This is the only line that changes
+      const res = await fetch('/api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query })
