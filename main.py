@@ -160,8 +160,11 @@ async def ask_question(query: Query):
             }
         )
 
+# Replace the current Mangum setup with this
 from mangum import Mangum
-handler = Mangum(app)
+
+# Make sure this is OUTSIDE any conditional blocks like if __name__ == "__main__"
+handler = Mangum(app, lifespan="off")
 
 if __name__ == "__main__":
     import uvicorn
