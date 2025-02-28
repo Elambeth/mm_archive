@@ -1,1 +1,4 @@
 /frontend
+.gitignore
+Pipfile
+Pipfile.lock
