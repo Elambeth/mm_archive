@@ -5,22 +5,22 @@
         "src": "main.py",
         "use": "@vercel/python",
         "config": {
-          "maxDuration": 60
+          "maxLambdaSize": "15mb"
         }
       },
       {
-        "src": "frontend/build/**",
+        "src": "build/**",
         "use": "@vercel/static"
       }
     ],
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "main.py"
+        "dest": "/main.py"
       },
       {
         "src": "/(.*)",
-        "dest": "frontend/build/$1"
+        "dest": "/build/$1"
       }
     ]
   }
