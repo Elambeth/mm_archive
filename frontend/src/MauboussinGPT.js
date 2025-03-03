@@ -11,6 +11,8 @@ const MauboussinGPT = () => {
   const [error, setError] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const navigate = useNavigate();
+  const [loadingMessage, setLoadingMessage] = useState('');
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const lastQuestion = localStorage.getItem("lastquestion");
@@ -21,14 +23,48 @@ const MauboussinGPT = () => {
     }
   }, []);
 
+  const loadingMessages = [
+    "Rifling through Mauboussin's filing cabinet...",
+    "Consulting with the capital allocation experts...",
+    "Calculating optimal ROIC strategies...",
+    "Distinguishing skill from luck...",
+    "Analyzing competitive advantage periods...",
+    "Examining the expectations infrastructure...",
+    "Checking what the market might be missing...",
+    "Contemplating base rates and mental models...",
+    "Exploring the success equation...",
+    "Considering the outside view...",
+    "Pondering mean reversion principles...",
+    "Studying the paradox of skill..."
+  ];
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError(null);
     setResponse(null);
+    //setProgress(25);
+    setLoadingMessage(loadingMessages[0]);
+      // Initialize loading animation
+      const messageInterval = setInterval(() => {
+        setLoadingMessage(prev => {
+          const currentIndex = loadingMessages.indexOf(prev);
+          const nextIndex = (currentIndex + 1) % loadingMessages.length;
+          return loadingMessages[nextIndex];
+        });
+      
+      // Update progress bar (goes from 0 to 95% while waiting)
+      setProgress(prev => {
+        // Larger random increments between 10-20%
+        const increment = 10 + Math.random() * 10;
+        // Cap at 90% until we complete
+        return Math.min(prev + increment, 90);
+      });
+    }, 2000); // Every 2 seconds
+    
 
     try {
-      // This is the only line that changes
+      // REMOVE THE LOCAL HOST PART BEFORE BUILDING
       const res = await fetch('/api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -39,18 +75,27 @@ const MauboussinGPT = () => {
         const errorData = await res.json();
         throw new Error(errorData.error || `API responded with status: ${res.status}`);
       }
-
+  
       const data = await res.json();
       setResponse(data);
       
       localStorage.setItem("lastquestion", query);
       localStorage.setItem("lastanswer", JSON.stringify(data));
       
+      // When complete, set progress to 100%
+      setProgress(100);
+      
     } catch (err) {
       setError(err.message || 'Failed to get response. Please try again.');
       setResponse(null);
     } finally {
+      clearInterval(messageInterval);
       setLoading(false);
+      // Reset after a short delay to show 100% completion
+      setTimeout(() => {
+        setProgress(0);
+        setLoadingMessage('');
+      }, 500);
     }
   };
 
@@ -135,8 +180,41 @@ const MauboussinGPT = () => {
           </form>
           
           {loading && (
-            <div className="loading-indicator" style={{ textAlign: 'center', margin: '20px 0' }}>
-              <p style={{ fontWeight: 'bold' }}>Processing your request...</p>
+            <div style={{
+              width: '100%',
+              maxWidth: '800px',
+              margin: '30px auto',
+              padding: '20px',
+              backgroundColor: 'white',
+              borderRadius: '10px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+              textAlign: 'center'
+            }}>
+              <div style={{
+                height: '10px',
+                width: '100%',
+                backgroundColor: '#e0e0e0',
+                borderRadius: '5px',
+                overflow: 'hidden',
+                marginBottom: '20px'
+              }}>
+                <div style={{
+                  height: '100%',
+                  width: `${progress}%`,
+                  backgroundColor: '#4e54c8',
+                  borderRadius: '5px',
+                  transition: 'width 0.5s ease'
+                }}></div>
+              </div>
+              <p style={{
+                fontSize: '18px',
+                fontWeight: '500',
+                color: '#333',
+                fontStyle: 'italic',
+                margin: '0'
+              }}>
+                {loadingMessage || "Processing your request..."}
+              </p>
             </div>
           )}
 

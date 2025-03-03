@@ -518,4 +518,45 @@ button:disabled {
     font-size: 0.875rem;
     margin-bottom: 0.5rem;
   }
+  /* Improve the loading indicator styling */
+  .loading-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .loading-indicator {
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .progress-bar-container {
+    height: 10px;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    border-radius: 5px;
+    transition: width 0.5s ease;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    font-style: italic;
+  }
 }
