@@ -259,7 +259,7 @@ Answer:"""
             user_prompt = "You are an AI assistant specialized in Michael Mauboussin's work.\n\n" + prompt
             
             response = self.client.chat.completions.create(
-                model="o1-mini",  # Using OpenAI's o1-mini model
+                model="gpt-5-mini",  # Using OpenAI's gpt-5-mini model
                 messages=[
                     {"role": "user", "content": user_prompt}
                 ]
